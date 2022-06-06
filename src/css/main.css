@@ -1,14 +1,12 @@
 /* pk34 */
-/*html{
-    background: url('../components/home/resources/images/bg_image.png') no-repeat center center fixed; 
+/* Full document */
+html{
+    background: url('../resources/main/bg_image.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-}*/
-html{
-    overflow-x: hidden;
 }
 /*Flashlights*/
 .flashlights-div{

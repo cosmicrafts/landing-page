@@ -43,7 +43,7 @@ export default function Main(props){
     }, [animations]);
 
     return(
-        <>
+        <div className="main-div">
             <div className="planet-div">
                 <div id="planet" className="planet-center"></div>
             </div>
@@ -56,6 +56,6 @@ export default function Main(props){
             <div className="flashlights-div">
                 <div id="flashlights" className="flashlights"></div>
             </div>
-        </>
+        </div>
     );
 }
