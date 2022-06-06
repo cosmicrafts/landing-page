@@ -20,6 +20,33 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Estructure
+
+Inside the project you will find the next sctructure (among other things that we can ignore unless you know what you are doing)
+
+>src
+    >css
+    >resources
+    >sections
+    App.js
+    index.js
+
+All the css files should go inside the css folder
+
+All resources should go inside the resources folder
+
+All code should go inside an individual folder for each section inside the sections folder
+
+You can import your sections in App.js in the order it should be displayed
+
+### Important notes
+
+You should comment on the first line of each section file your name (nickname, username, name or something) to identify you created that file and all questions can be asked to you
+
+If you are going to modify other user's file, first let them know
+
+You can create as many folders inside each folder already created for your own needs, just respect the actual structure
+
 ## Build for Prod
 
 ### `npm run build`
