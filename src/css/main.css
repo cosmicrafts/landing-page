@@ -1,11 +1,13 @@
 /* pk34 */
 /* Full document */
-html{
+.main-div{
     background: url('../resources/main/bg_image.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 /*Flashlights*/
@@ -54,12 +56,11 @@ html{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    left: 25vw;
 }
 .ship-animation-right{
-    height: 200vh;
-    margin-top: -40vh;
-    float: right;
+    width: 100vw;
+    margin-left: 25vw;
+    margin-top: -45vh;
 }
 /*Mid Panel*/
 .midpanel-div{
