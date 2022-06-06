@@ -7,20 +7,19 @@
     background-size: cover;
     overflow: hidden;
 }*/
+html{
+    overflow-x: hidden;
+}
 /*Flashlights*/
 .flashlights-div{
     overflow: hidden;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
 }
 .flashlights{
-    /*position: absolute;
-    width: 9999px;
-    height: 9999px;
-    margin-left: -2%;*/
     position: absolute;
     width: 2972.5px;
     left: 0px;
@@ -29,40 +28,39 @@
 /*Planet*/
 .planet-div{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 .planet-center{
-    height: 160%;
-    left: 0;
-    margin-top: -15%;
-    max-width: none;
-    width: auto;
+    width: 300vw;
+    margin-left: -55vw;
+    margin-top: -100vh;
 }
 /*Ship Left*/
 .ship-left-div{
     position: absolute;
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 100vh;
     left: 0;
+    overflow: hidden;
 }
 .ship-animation-left{
-    /*height: 800px;
-    width: 800px;*/
-    position: absolute;
-    width: 570.72px;
+    width: 50vw;
     left: 0px;
     top: 0px;
 }
 /*Ship right*/
 .ship-right-div{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    left: 25vw;
 }
 .ship-animation-right{
-    height: 100%;
-    margin-top: 16%;
+    height: 200vh;
+    margin-top: -40vh;
     float: right;
 }
 /*Mid Panel*/
@@ -632,26 +630,16 @@
 @media(min-width: 1024px) and (max-width: 1439px){
     /*Flashlights*/
     /*Planet*/
-    .planet-div{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-    }
     .planet-center{
-        /*height: 145%;
-        margin-top: -10%;*/
-        width: 1189px;
-        left: 0px;
-        top: -201.5px;
+        width: 300vw;
+        margin-left: -55vw;
+        margin-top: -65vh;
     }
     /*Ship Left*/
     .ship-left-div{
         width: 45%;
     }
     .ship-animation-left{
-        /*height: 100%;
-        width: 100%;
-        margin-top: -10%;*/
         position: absolute;
         width: 570.72px;
         left: 0px;
