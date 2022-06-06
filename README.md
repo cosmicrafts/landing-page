@@ -25,10 +25,20 @@ You may also see any lint errors in the console.
 Inside the project you will find the next sctructure (among other things that we can ignore unless you know what you are doing)
 
 >src
+
+>src 
     >css
+
+>src 
     >resources
+    
+>src
     >sections
+
+>src 
     App.js
+
+>src
     index.js
 
 All the css files should go inside the css folder
