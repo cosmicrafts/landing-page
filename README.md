@@ -1,4 +1,10 @@
+# Download
+
+Download the project either as .zip or with `git clone`
+
 # Install project
+
+Open a terminal inside the project's folder and run
 
 ### `npm install`
 
@@ -13,6 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Build for Prod
 
 ### `npm run build`
 
