@@ -1,4 +1,19 @@
 /* pk34 */
+/* Resources */
+@font-face {
+    font-family: 'neue-regular';
+    src: local('neue-regular'), url(../resources/fonts/neue/NeueHaasDisplayMediu.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: 'neue-thin';
+    src: local('neue-thin'), url(../resources/fonts/neue/NeueHaasDisplayThin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'neue-bold';
+    src: local('neue-bold'), url(../resources/fonts/neue/NeueHaasDisplayBlack.ttf) format('truetype');
+}
 /* Full document */
 .main-div{
     background: url('../resources/main/bg_image.png') no-repeat center center fixed; 
@@ -63,6 +78,87 @@
     margin-top: -45vh;
 }
 /*Mid Panel*/
+.div-panel{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.img-panel{
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin-left: 35vw;
+    margin-top: 10vh;
+}
+.title-div-panel{
+    position: absolute;
+    width: 8vw;
+    left: 46.5vw;
+    top: 27vw;
+    height: 2vh;
+    text-align: center;
+}
+.title-panel{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 1vw;
+    font-family: 'neue-regular';
+}
+.text-div-panel{
+    position: absolute;
+    width: 16vw;
+    left: 42.5vw;
+    top: 30vw;
+    height: 2vh;
+    text-align: center;
+}
+.text-panel{
+    color: #FFFFFF;
+    font-family: 'neue-thin';
+    font-size: 1.1vw;
+}
+.span-regular{
+    font-family: 'neue-regular';
+}
+.span-bold{
+    font-family: 'neue-bold';
+}
+.version-div-panel{
+    position: absolute;
+    width: 16vw;
+    left: 42vw;
+    top: 40.5vw;
+    height: 2vh;
+    text-align: center;
+}
+.version-panel{
+    color: #FFFFFF;
+    font-size: 0.75vw;
+    font-family: 'neue-thin';
+}
+.img-dfinity-logo{
+    position: relative;
+    width: 4vw;
+    left: -16.75vw;
+    top: -9vw;
+}
+.play-btn-panel{
+    position: relative;
+    width: 8vw;
+    left: -23vw;
+    top: -5vw;
+    cursor: pointer;
+    transition: 100ms;
+}
+.play-btn-panel:hover{
+    width: 10vw;
+    left: -24vw;
+    transition: 200ms;
+}
+
 .midpanel-div{
     position: absolute;
     width: 100%;

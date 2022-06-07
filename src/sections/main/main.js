@@ -11,6 +11,9 @@ import shipLeft from '../../resources/animations/TerraformAnim.json'
 import shipRight from '../../resources/animations/HawkIdle.json'
 import ap320 from '../../resources/animations/AP320.json'
 import flashLight from '../../resources/animations/Flashlights.json'
+import panel from "../../resources/main/main_panel.svg";
+import dfinityLogo from "../../resources/main/dfinity_logo.svg";
+import playBtn from "../../resources/main/play_btn.svg";
 
 export default function Main(props){
     const [animations, setAnimations] = useState(false);
@@ -20,6 +23,10 @@ export default function Main(props){
             setAnimations(true);
         }
     }, []);
+
+    const play = () => {
+        window.location.href = "https://play.cosmicrafts.com";
+    };
 
     useEffect(() => {
         if(animations){
@@ -34,7 +41,7 @@ export default function Main(props){
             Lottie.loadAnimation({
                 container: document.querySelector("#ship-right"),
                 animationData: shipRight
-            }).setSpeed(0.5);
+            }).setSpeed(0.4);
             Lottie.loadAnimation({
                 container: document.querySelector("#flashlights"),
                 animationData: flashLight
@@ -55,6 +62,20 @@ export default function Main(props){
             </div>
             <div className="flashlights-div">
                 <div id="flashlights" className="flashlights"></div>
+            </div>
+            <div className="div-panel">
+                <img src={panel} className="img-panel" alt="panel" />
+                <div className="title-div-panel">
+                    <label className="title-panel">SUPERNOVA</label>
+                </div>
+                <div className="text-div-panel">
+                    <label className="text-panel">Try our <span className="span-regular">Latest Release</span> on<br/>the <span className="span-bold">Internet Computer.</span></label>
+                </div>
+                <img src={dfinityLogo} className="img-dfinity-logo" alt="Dfinity logo" />
+                <img src={playBtn} onClick={() => { play(); }} className="play-btn-panel" alt="PLAY" />
+                <div className="version-div-panel">
+                    <label className="version-panel">v.0.5.2.3</label>
+                </div>
             </div>
         </div>
     );
