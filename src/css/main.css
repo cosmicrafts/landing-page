@@ -91,14 +91,15 @@
     width: 30vw;
     height: auto;
     margin-left: 35vw;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 .title-div-panel{
-    position: absolute;
+    position: relative;
+    top: -17vw;
     width: 8vw;
-    left: 46.5vw;
-    top: 27vw;
+    left: -18.5vw;
     height: 2vh;
+    display: inline-block;
     text-align: center;
 }
 .title-panel{
@@ -108,12 +109,13 @@
     font-family: 'neue-regular';
 }
 .text-div-panel{
-    position: absolute;
+    position: relative;
     width: 16vw;
-    left: 42.5vw;
-    top: 30vw;
+    left: -31vw;
+    top: -13vw;
     height: 2vh;
     text-align: center;
+    display: inline-block;
 }
 .text-panel{
     color: #FFFFFF;
@@ -127,10 +129,10 @@
     font-family: 'neue-bold';
 }
 .version-div-panel{
-    position: absolute;
+    position: relative;
+    top: -4.5vw;
     width: 16vw;
     left: 42vw;
-    top: 40.5vw;
     height: 2vh;
     text-align: center;
 }
@@ -142,20 +144,20 @@
 .img-dfinity-logo{
     position: relative;
     width: 4vw;
-    left: -16.75vw;
+    left: -40.75vw;
     top: -9vw;
 }
 .play-btn-panel{
     position: relative;
     width: 8vw;
-    left: -23vw;
-    top: -5vw;
+    left: 46vw;
+    top: -9.5vw;
     cursor: pointer;
     transition: 100ms;
 }
 .play-btn-panel:hover{
     width: 10vw;
-    left: -24vw;
+    left: 45vw;
     transition: 200ms;
 }
 

@@ -72,10 +72,10 @@ export default function Main(props){
                     <label className="text-panel">Try our <span className="span-regular">Latest Release</span> on<br/>the <span className="span-bold">Internet Computer.</span></label>
                 </div>
                 <img src={dfinityLogo} className="img-dfinity-logo" alt="Dfinity logo" />
-                <img src={playBtn} onClick={() => { play(); }} className="play-btn-panel" alt="PLAY" />
                 <div className="version-div-panel">
                     <label className="version-panel">v.0.5.2.3</label>
                 </div>
+                <img src={playBtn} onClick={() => { play(); }} className="play-btn-panel" alt="PLAY" />
             </div>
         </div>
     );

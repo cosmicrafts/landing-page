@@ -12,8 +12,6 @@ import discordIcon from "../../resources/main/discord.svg";
 import instagramIcon from "../../resources/main/instagram.svg";
 import facebookIcon from "../../resources/main/facebook.svg";
 import youtubeIcon from "../../resources/main/youtube.svg";
-import blueBtn from "../../resources/main/blue_btn.svg";
-import playBtn from "../../resources/main/play_btn_header.svg";
 
 export default function Header(props){
 
@@ -21,10 +19,14 @@ export default function Header(props){
         window.open(url);
     };
 
+    const load = (url) => {
+        window.location.href = url;
+    };
+
     return(
         <div className="header-div">
             <div className="header-div-logo">
-                <img src={imgLogo} className="header-logo" alt="Cosmicrafts Logo" />
+                <img src={imgLogo} className="header-logo" alt="Cosmicrafts Logo" onClick={() => { load("https://cosmicrafts.com"); } } />
             </div>
             <div className="header-div-icon">
                 <img src={dscvrIcon} className="header-icon" alt="DSCVR" onClick={() => { goTo("https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/u/Cosmicrafts"); }} />
@@ -42,9 +44,9 @@ export default function Header(props){
                 <div className="btn-header-div" onClick={() => { goTo("https://wp.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">WHITEPAPER</label>
                 </div>
-                <div className="btn-header-div-play" onClick={() => { goTo("https://play.cosmicrafts.com"); } }>
+                <div className="btn-header-div-play" onClick={() => { load("https://play.cosmicrafts.com"); } }>
                 </div>
-                <div className="btn-header-div" onClick={() => { goTo("https://play.cosmicrafts.com"); } }>
+                <div className="btn-header-div" onClick={() => { load("https://play.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">LOGIN</label>
                 </div>
             </div>
