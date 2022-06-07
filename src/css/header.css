@@ -1,0 +1,99 @@
+/* pk34 */
+/* Resources */
+@font-face {
+    font-family: 'neue-regular';
+    src: local('neue-regular'), url(../resources/fonts/neue/NeueHaasDisplayMediu.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: 'neue-thin';
+    src: local('neue-thin'), url(../resources/fonts/neue/NeueHaasDisplayThin.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'neue-bold';
+    src: local('neue-bold'), url(../resources/fonts/neue/NeueHaasDisplayBlack.ttf) format('truetype');
+}
+/* background header */
+.header-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    z-index: 999;
+}
+/* Logo */
+.header-div-logo{
+    position: absolute;
+    width: 37vw;
+    left: 0vw;
+    top: 2vh;
+}
+.header-logo{
+    width: 5vh;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+/* Icons */
+.header-div-icon{
+    position: absolute;
+    width: 22vw;
+    left: 38vw;
+    top: 2.5vh;
+}
+.header-icon{
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1.5vw;
+}
+/* Buttons */
+.header-div-buttons{
+    position: absolute;
+    width: 39vw;
+    left: 60vw;
+}
+.btn-header-div{
+    background: url("../resources/main/blue_btn.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 5vh;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.btn-header-div-play{
+    background: url("../resources/main/play_button_header.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 5vh;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.btn-header{
+    width: auto;
+    height: 4vh;
+    cursor: pointer;
+    transition: 100ms;
+}
+.btn-header:hover{
+    /*width: 10.5vw;*/
+    transition: 200ms;
+}
+.btn-lbl-header{
+    color: #FFFFFF;
+    font-family: "neue-bold";
+    font-size: 1vw;
+    position: absolute;
+    text-align: center;
+    pointer-events: none;
+    width: 100%;
+    top: 1vh;
+}
