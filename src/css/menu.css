@@ -94,7 +94,7 @@
     width: 4vw;
     display: inline-block;
     padding-left: 3vw;
-    vertical-align: text-bottom;
+    vertical-align: sub;
 }
 .menu-section-div{
     background: url("../resources/menu/menu_section_bkg.svg") no-repeat;
