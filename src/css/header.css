@@ -61,8 +61,8 @@
     background-size: contain;
     position: relative;
     display: inline-block;
-    width: 25%;
-    height: 5vh;
+    width: 33%;
+    height: 6vh;
     margin-top: 2vh;
     cursor: pointer;
 }
@@ -72,8 +72,8 @@
     background-size: contain;
     position: relative;
     display: inline-block;
-    width: 25%;
-    height: 5vh;
+    width: 33%;
+    height: 6vh;
     margin-top: 2vh;
     cursor: pointer;
 }
@@ -83,17 +83,27 @@
     cursor: pointer;
     transition: 100ms;
 }
-.btn-header:hover{
+.btn-header-div:hover{
     /*width: 10.5vw;*/
+    width: 34%;
+    height: 6.25vh;
+    margin-top: 1.75vh;
+    transition: 200ms;
+}
+.btn-header-div-play:hover{
+    /*width: 10.5vw;*/
+    width: 34%;
+    height: 6.25vh;
+    margin-top: 1.75vh;
     transition: 200ms;
 }
 .btn-lbl-header{
     color: #FFFFFF;
     font-family: "neue-bold";
-    font-size: 1vw;
+    font-size: 1.25vw;
     position: absolute;
     text-align: center;
     pointer-events: none;
     width: 100%;
-    top: 1vh;
+    top: 1.25vh;
 }

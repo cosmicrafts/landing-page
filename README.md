@@ -14,32 +14,27 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Estructure
+## Structure
 
 Inside the project you will find the next sctructure (among other things that we can ignore unless you know what you are doing)
 
 >src
 
->src 
-    >css
+>src / css /
 
->src 
-    >resources
+>src / resources /
     
->src
-    >sections
+>src / sections /
 
->src 
-    App.js
+>src / App.js
 
->src
-    index.js
+>src / index.js
 
 All the css files should go inside the css folder
 
