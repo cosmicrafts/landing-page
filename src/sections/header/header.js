@@ -1,6 +1,9 @@
 /// pk34
 /// React
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+/// Sections
+import Menu from "./menu";
 
 /// Resources
 import "../../css/header.css";
@@ -14,6 +17,9 @@ import facebookIcon from "../../resources/main/facebook.svg";
 import youtubeIcon from "../../resources/main/youtube.svg";
 
 export default function Header(props){
+    const [open, setOpen] = useState(false);
+
+    useEffect(() => {}, [open]);
 
     const goTo = (url) => {
         window.open(url);
@@ -27,6 +33,7 @@ export default function Header(props){
         <div className="header-div">
             <div className="header-div-logo">
                 <img src={imgLogo} className="header-logo" alt="Cosmicrafts Logo" onClick={() => { load("https://cosmicrafts.com"); } } />
+                <Menu open={open} setOpen={setOpen} onClick={() => { setOpen(!open); } } goTo={goTo} load={load} />
             </div>
             <div className="header-div-icon">
                 <img src={dscvrIcon} className="header-icon" alt="DSCVR" onClick={() => { goTo("https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/u/Cosmicrafts"); }} />
