@@ -22,14 +22,14 @@ export default function About(props){
     };
 
     return(
-        <div class="about-div">
-            <div class="about-left">
-                <div class="about-left-image"></div>
+        <div className="about-div">
+            <div className="about-left">
+                <div className="about-left-image"></div>
             </div>
-            <div class="about-right">
-                <div class="about-right-section1">
-                    <span class="about-text-bold ">A real-time strategy game built-in web3</span>
-                    <span class="about-text"> to experience action packed and fast-paced intergalactic warfare by commanding your own space fleet.</span>
+            <div className="about-right">
+                <div className="about-right-section1">
+                    <span className="about-text-bold ">A real-time strategy game built-in web3</span>
+                    <span className="about-text"> to experience action packed and fast-paced intergalactic warfare by commanding your own space fleet.</span>
                     
                     <div className="div-buttons">
                         <div className="btn-about-deck" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }></div>
@@ -38,7 +38,7 @@ export default function About(props){
                         </div>
                     </div>
 
-                    <div class="video"></div>
+                    <div className="video"></div>
 
                     <div className="div-buttons">
                         <div className="btn-about-wt" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>

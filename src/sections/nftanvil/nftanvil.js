@@ -27,9 +27,6 @@ export default function NFTAnvil()
             </Row>
             <Row className="justify-content-md-center text-center">
                 <Col>
-                    <Button>
-
-                    </Button>
                 </Col>
             </Row>
         </Container>
