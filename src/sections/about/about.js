@@ -1,19 +1,9 @@
-/// pk34
+/// Shizuken
 /// React
-import React, { useEffect, useState } from "react";
-
-/// Libraries
-import Lottie from "lottie-web";
+import React from "react";
 
 /// Resources
 import "../../css/about.css";
-import shipLeft from '../../resources/animations/TerraformAnim.json'
-import shipRight from '../../resources/animations/HawkIdle.json'
-import ap320 from '../../resources/animations/AP320.json'
-import flashLight from '../../resources/animations/Flashlights.json'
-import panel from "../../resources/main/main_panel.svg";
-import dfinityLogo from "../../resources/main/dfinity_logo.svg";
-import playBtn from "../../resources/main/play_btn.svg";
 
 export default function About(props){
    
@@ -33,7 +23,7 @@ export default function About(props){
                     
                     <div className="div-buttons">
                         <div className="btn-about-deck" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }></div>
-                        <div className="btn-about-whitepaper" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>
+                        <div className="btn-about-whitepaper" onClick={() => {  window.open("https://wp.cosmicrafts.com"); } }>
                             {/* <label className="btn-lbl-about">WHITEPAPER</label> */}
                         </div>
                     </div>

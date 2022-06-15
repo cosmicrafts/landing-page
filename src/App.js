@@ -1,4 +1,7 @@
 import About from './sections/about/about';
+import DividerTwo from './sections/divider/dividerTwo';
+import FirstDivider from './sections/divider/firstDivider';
+import Future from './sections/future/future';
 import Header from './sections/header/header';
 import Main from './sections/main/main';
 import NFTAnvil from './sections/nftanvil/nftanvil';
@@ -8,8 +11,11 @@ function App() {
     <>
       <Header />
       <Main />
+      <FirstDivider />
       <About />
+      <DividerTwo />
       <NFTAnvil/>
+      <Future />
     </>
   );
 }
