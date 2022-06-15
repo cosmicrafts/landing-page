@@ -95,7 +95,7 @@
 }
 .title-div-panel{
     position: relative;
-    top: -17vw;
+    top: 6.5vw;
     width: 8vw;
     left: -18.5vw;
     height: 2vh;
@@ -112,7 +112,7 @@
     position: relative;
     width: 16vw;
     left: -31vw;
-    top: -13vw;
+    top: 11vw;
     height: 2vh;
     text-align: center;
     display: inline-block;
@@ -145,7 +145,7 @@
     position: relative;
     width: 4vw;
     left: -40.75vw;
-    top: -9vw;
+    top: 13vw;
 }
 .play-btn-panel{
     position: relative;
