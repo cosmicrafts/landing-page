@@ -1,3 +1,4 @@
+import About from './sections/about/about';
 import Header from './sections/header/header';
 import Main from './sections/main/main';
 import NFTAnvil from './sections/nftanvil/nftanvil';
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <About />
       <NFTAnvil/>
     </>
   );
