@@ -17,7 +17,7 @@ export default function Menu(props){
     const goTo = props.goTo;
     const load = props.load;
 
-    const [gameOpen, setGameOpen] = useState(false);
+    const [gameOpen, setGameOpen] = useState(true);
     const [nftsOpen, setNFTsOpen] = useState(false);
     const [tokensOpen, setTokensOpen] = useState(false);
     const [inverstorOpen, setInvestorOpen] = useState(false);
