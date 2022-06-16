@@ -50,7 +50,7 @@ export default function Main(props){
     }, [animations]);
 
     return(
-        <div className="main-div">
+        <div className="main-div" id="home">
             <div className="planet-div">
                 <div id="planet" className="planet-center"></div>
             </div>

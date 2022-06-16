@@ -36,17 +36,17 @@ body {
   overflow: hidden;
 }
 .v21_68 {
-  width: 383px;
-  height: 353px;
+  width: 20vw;
+  --ratio: calc(353 / 383);
+  height: calc(20vw * var(--ratio));
   background: url("../resources/footer/v21_68.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
-  top: 379px;
-  left: 769px;
-  overflow: hidden;
+  top: 40%;
+  left: 40vw;
+  opacity: 0.3;
 }
 .v21_41 {
   width: 100%;
@@ -54,34 +54,33 @@ body {
   position: absolute;
   top: 847px;
   left: 1px;
-  font-family: Neue Haas Grotesk Display Pro;
-  font-weight: 55 Roman;
+  font-family: "neue-thin";
   font-size: 24px;
   opacity: 1;
   text-align: center;
 }
 .v21_42 {
-  width: 399px;
+  width: 25vw;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 305px;
-  left: 1438px;
-  font-family: Neue Haas Grotesk Display Pro;
-  font-weight: 55 Roman;
+  top: 31vh;
+  right: 4vw;
+  font-family: "neue-thin";
   font-size: 36px;
   opacity: 1;
   text-align: right;
+  line-height: 8vh;
 }
 .v21_43 {
-  width: 758px;
+  width: 60vw;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 499px;
-  left: 585px;
+  left: 20vw;
   text-shadow: 0px 4.0001373291015625px 4px rgba(0, 0, 0, 0.25);
-  font-family: Orbitron;
-  font-weight: ExtraBold;
-  font-size: 64px;
+  font-family: "Orbitron";
+  font-weight: 800;
+  font-size: 6vh;
   opacity: 1;
   text-align: center;
 }
@@ -89,16 +88,16 @@ body {
   width: 316px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 305px;
-  left: 81px;
-  font-family: Neue Haas Grotesk Display Pro;
-  font-weight: 75 Bold;
-  font-size: 46px;
+  top: 28vh;
+  left: 4vw;
+  font-family: "neue-bold";
+  font-size: 4vh;
   opacity: 1;
   text-align: left;
+  line-height: 8vh;
 }
 .v21_45 {
-  width: 318px;
+  width: 30vw;
   height: 47px;
   /*background: url("../resources/footer/v21_45.png");*/
   background-repeat: no-repeat;
@@ -109,7 +108,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 593px;
-  left: 809px;
+  left: 40vw;
   overflow: hidden;
 }
 .v21_66 {
@@ -202,4 +201,8 @@ body {
   top: 14px;
   left: 295px;
   overflow: hidden;
+}
+.alinks{
+  text-decoration: none;
+  color: #FFFFFF;
 }
