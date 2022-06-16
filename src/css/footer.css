@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.footer-div{
+  position: relative;
+  display: flex;
+}
+.v21_3 {
+  width: 100%;
+  height: 964px;
+  /*background: url("../resources/footer/v21_3.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+}
+.v21_69 {
+  width: 100%;
+  height: 958px;
+  background: url("../resources/footer/v21_69.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v21_68 {
+  width: 383px;
+  height: 353px;
+  background: url("../resources/footer/v21_68.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 379px;
+  left: 769px;
+  overflow: hidden;
+}
+.v21_41 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 847px;
+  left: 1px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-weight: 55 Roman;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v21_42 {
+  width: 399px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 305px;
+  left: 1438px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-weight: 55 Roman;
+  font-size: 36px;
+  opacity: 1;
+  text-align: right;
+}
+.v21_43 {
+  width: 758px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 499px;
+  left: 585px;
+  text-shadow: 0px 4.0001373291015625px 4px rgba(0, 0, 0, 0.25);
+  font-family: Orbitron;
+  font-weight: ExtraBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v21_44 {
+  width: 316px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 305px;
+  left: 81px;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-weight: 75 Bold;
+  font-size: 46px;
+  opacity: 1;
+  text-align: left;
+}
+.v21_45 {
+  width: 318px;
+  height: 47px;
+  /*background: url("../resources/footer/v21_45.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 11px 0px;
+  margin: 24px;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 809px;
+  overflow: hidden;
+}
+.v21_66 {
+  width: 26px;
+  height: 25px;
+  background: url("../resources/footer/v21_66.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  overflow: hidden;
+}
+.v21_65 {
+  width: 25px;
+  height: 25px;
+  background: url("../resources/footer/v21_65.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 50px;
+  overflow: hidden;
+}
+.v21_64 {
+  width: 26px;
+  height: 21px;
+  background: url("../resources/footer/v21_64.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 99px;
+  overflow: hidden;
+}
+.v21_63 {
+  width: 28px;
+  height: 21px;
+  background: url("../resources/footer/v21_63.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 149px;
+  overflow: hidden;
+}
+.v21_61 {
+  width: 23px;
+  height: 23px;
+  background: url("../resources/footer/v21_61.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 201px;
+  overflow: hidden;
+}
+.v21_62 {
+  width: 23px;
+  height: 23px;
+  background: url("../resources/footer/v21_62.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 248px;
+  overflow: hidden;
+}
+.v21_67 {
+  width: 23px;
+  height: 19px;
+  background: url("../resources/footer/v21_67.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 295px;
+  overflow: hidden;
+}
