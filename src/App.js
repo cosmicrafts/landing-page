@@ -1,4 +1,5 @@
 import About from './sections/about/about';
+import DividerThree from './sections/divider/dividerThree';
 import DividerTwo from './sections/divider/dividerTwo';
 import FirstDivider from './sections/divider/firstDivider';
 import Footer from './sections/footer/footer';
@@ -22,6 +23,7 @@ function App() {
       <DividerTwo />
       <NFTAnvil/>
       <Future />
+      <DividerThree />
       <Team />
       <Fundrising />
       <Footer />

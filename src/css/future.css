@@ -17,7 +17,7 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
-  margin-bottom: calc(-32vh * var(--ratio));
+  margin-bottom: calc(-22vw * var(--ratio));
 }
 .v14_55 {
   width: 100vw;
