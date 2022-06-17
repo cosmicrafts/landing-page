@@ -7,6 +7,7 @@ import Future from './sections/future/future';
 import Header from './sections/header/header';
 import Main from './sections/main/main';
 import NFTAnvil from './sections/nftanvil/nftanvil';
+import Team from './sections/team/team';
 
 import "./css/font.css";
 
@@ -20,6 +21,7 @@ function App() {
       <DividerTwo />
       <NFTAnvil/>
       <Future />
+      <Team />
       <Fundrising />
       <Footer />
     </>
