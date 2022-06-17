@@ -1,0 +1,107 @@
+.fundrising-div{
+    position: relative;
+    --ratio: calc(223 / 480);
+    margin-bottom: calc(-40vh * var(--ratio));
+}
+.fundrising-background{
+    width: 100vw;
+    --ratio: calc(223 / 480);
+    height: calc(100vw * var(--ratio));
+    background: url("../resources/fundrising/fundrising_background.svg");
+    background-size: cover;
+}
+.fundrising-left-ship{
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    background: url("../resources/fundrising/fundrising_leftship.svg");
+    background-size: cover;
+    top: 12vh;
+}
+.fundrising-mid-div{
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    left: 25vw;
+    top: 5vh;
+}
+.fundrising-stats-imgs{
+    width: 15vw;
+    --ratio: calc(418 / 301);
+    height: calc(15vw * var(--ratio));
+    top: 15vh;
+    position: absolute;
+    background: url("../resources/fundrising/fundrising_stats.svg");
+    background-size: cover;
+}
+.fundrising-title{
+    font-family: "neue-bold";
+    color: #FFFFFF;
+    white-space: nowrap;
+    line-height: 6vh;
+    font-size: 4.1vh;
+    position: absolute;
+    width: 31vw;
+    left: 16vw;
+    top: 15vh;
+}
+.fundrising-title-big{
+    font-size: 7.9vh;
+}
+.fundrising-text{
+    font-family: "neue-thin";
+    color: #FFFFFF;
+    font-size: 3vh;
+    text-align: justify;
+    position: absolute;
+    width: 31vw;
+    left: 16vw;
+    top: 30vh;
+}
+.fundrising-text-bold{
+    font-family: "neue-regular";
+}
+.fundrising-btn-deck{
+    position: absolute;
+    width: 10vw;
+    --ratio: calc(57 / 163);
+    height: calc(10vw * var(--ratio));
+    left: 23vw;
+    top: 53vh;
+    background: url("../resources/about/btn_about_deck.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 1;
+}
+.fundrising-btn-deck:hover{
+    width: 11vw;
+    --ratio: calc(57 / 163);
+    height: calc(11vw * var(--ratio));
+}
+.fundrising-btn-whitepaper{
+    position: absolute;
+    width: 14vw;
+    --ratio: calc(57 / 163);
+    height: calc(14vw * var(--ratio));
+    left: 34vw;
+    top: 53vh;
+    background: url("../resources/about/btn_about_wp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 1;
+}
+.fundrising-btn-whitepaper:hover{
+    width: 15vw;
+    --ratio: calc(57 / 163);
+    height: calc(15vw * var(--ratio));
+}
+.fundrising-right-ship{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    right: 0vw;
+    background: url("../resources/fundrising/fundrising_rightship.svg");
+    background-size: cover;
+}
