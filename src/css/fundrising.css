@@ -101,7 +101,7 @@
     width: 45vw;
     height: 45vw;
     position: absolute;
-    right: 0vw;
+    right: -1vw;
     background: url("../resources/fundrising/fundrising_rightship.svg");
     background-size: cover;
 }
