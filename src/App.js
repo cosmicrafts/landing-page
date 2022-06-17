@@ -1,4 +1,5 @@
 import About from './sections/about/about';
+import DividerThree from './sections/divider/dividerThree';
 import DividerTwo from './sections/divider/dividerTwo';
 import FirstDivider from './sections/divider/firstDivider';
 import Footer from './sections/footer/footer';
@@ -10,6 +11,7 @@ import NFTAnvil from './sections/nftanvil/nftanvil';
 import Team from './sections/team/team';
 
 import "./css/font.css";
+import "./css/html.css";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <DividerTwo />
       <NFTAnvil/>
       <Future />
+      <DividerThree />
       <Team />
       <Fundrising />
       <Footer />

@@ -5,95 +5,84 @@ body {
   font-size: 14px;
 }
 .v18_57 {
-  margin-top: -9vh;
-  margin-bottom: -10vh;
+  margin-top: -4vw;
+  margin-bottom: -6vw;
   z-index: 1;
   width: 100%;
-  height: 395px;
-  /*background: url("../resources/dividerOne/v18_57.png");*/
+  --ratio: calc(373 / 1921);
+  height: calc(100vw * var(--ratio));
+  background: url("../resources/dividerTwo/v19_104.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v18_66 {
-  width: 100%;
-  height: 373px;
-  background: url("../resources/dividerOne/v18_66.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 22px;
-  left: 0px;
   overflow: hidden;
 }
 .v18_59 {
-  width: 592px;
-  height: 333px;
+  width: 30vw;
+  --ratio: calc(333 / 592);
+  height: calc(30vw * var(--ratio));
   background: url("../resources/dividerOne/v18_59.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 26px;
+  top: 0;
   overflow: hidden;
 }
 .v18_60 {
-  width: 758px;
+  width: 50vw;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 169px;
-  left: 586px;
+  top: 6vw;
+  left: 25vw;
   text-shadow: 0px 4.0001373291015625px 4px rgba(0, 0, 0, 0.25);
   font-family: Orbitron;
-  font-weight: ExtraBold;
-  font-size: 64px;
+  font-weight: 700;
+  font-size: 3.5vw;
   opacity: 1;
   text-align: center;
 }
 .v18_65 {
-  width: 153px;
-  height: 141px;
+  width: 8vw;
+  --ratio: calc(141 / 153);
+  height: calc(8vw * var(--ratio));
   background: url("../resources/dividerOne/v18_65.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 131px;
-  left: 875px;
+  top: calc(5vw * var(--ratio));
+  left: 46vw;
   overflow: hidden;
 }
 .v18_67 {
-  width: 294px;
-  height: 4px;
+  width: 20vw;
+  --ratio: calc(4 / 294);
+  height: calc(30vw * var(--ratio));
   background: url("../resources/dividerOne/v18_67.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 314px;
-  left: 813px;
+  top: 14vw;
+  left: 40vw;
   overflow: hidden;
 }
 .v18_63 {
-  width: 498px;
-  height: 386px;
+  width: 30vw;
+  --ratio: calc(333 / 592);
+  height: calc(30vw * var(--ratio));
   background: url("../resources/dividerOne/v18_63.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 1343px;
+  top: 0;
+  right: 0;
   overflow: hidden;
 }

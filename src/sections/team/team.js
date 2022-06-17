@@ -21,49 +21,49 @@ export default function Team(props){
         role: "Founder",
         position: "Game Director",
         image: "frenzy.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "MoisesL28150532",
+        linkedin: "moises-isai-lopez-plascencia-82a989218",
+        distrikt: "frenzy"
     },{
         name: "Francisco Peguero",
         role: "Founder",
         position: "Web3 Director",
         image: "pk34.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "pk34cosmicrafts",
+        linkedin: "pk-p-377230238",
+        distrikt: "pk34"
     },{
         name: "Ladislao Cantarell",
         role: "Founder",
         position: "Community Director",
         image: "wos.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "woscant",
+        linkedin: "ladislao-cantarell-b816bb70",
+        distrikt: "WosC"
     },{
         name: "Mariano Stoll",
         role: "Co-Founder",
         position: "COO & CHRO",
         image: "stoll.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "mariano_stoll",
+        linkedin: "marianostoll",
+        distrikt: "stoll"
     },{
         name: "Sury Webb",
         role: "Co-Founder",
         position: "Senior Game Developer",
         image: "sury.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "tiquiciafreak",
+        linkedin: "sury-oz-6286921bb",
+        distrikt: "surycr"
     },{
         name: "Manuel Quintero",
         role: "Co-Founder",
         position: "Senior Game Developer",
         image: "saku.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "saku_nix",
+        linkedin: "sakunix",
+        distrikt: "Sakunix"
     },{
         name: "Christian Alonso",
         role: "",
@@ -85,9 +85,9 @@ export default function Team(props){
         role: "",
         position: "Community Manager",
         image: "gianella.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "margianella",
+        linkedin: "margianella",
+        distrikt: "GianellaCC"
     },{
         name: "Denielle Serran",
         role: "",
@@ -97,37 +97,37 @@ export default function Team(props){
         linkedin: "",
         distrikt: ""
     },{
-        name: "Bryan Ordaz",
+        name: "Brayan Ordaz",
         role: "Co-Founder",
         position: "Graphics & UI/UX Design",
         image: "brayan.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "thehills13",
+        linkedin: "brayan-ordaz-a131b1221",
+        distrikt: "Thehills"
     },{
         name: "Angel Macorra",
         role: "",
         position: "Art Producer & SCA",
         image: "macorra.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "MacorraAXII",
+        linkedin: "%C3%A1ngel-iv%C3%A1n-gonz%C3%A1lez-de-la-macorra-b461a4204",
+        distrikt: "Axiimacorra"
     },{
         name: "Vladimir Diaz",
         role: "Co-Founder",
         position: "3D Art Manager & S3DA",
         image: "moo.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "Sarted_Rojo",
+        linkedin: "alejandro-vladimir-diaz-rojo-72320b221",
+        distrikt: "Vladimir_Rojo"
     },{
         name: "Ingram Diaz",
         role: "Co-Founder",
         position: "2D Art Manager & SCA",
         image: "ingram.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "gengis_the_trap",
+        linkedin: "ingram-diaz-46275a198",
+        distrikt: "cephalex"
     },{
         name: "Adriana Delgado",
         role: "",
@@ -141,9 +141,9 @@ export default function Team(props){
         role: "",
         position: "3D Generalist",
         image: "zambur.svg",
-        twitter: "",
-        linkedin: "",
-        distrikt: ""
+        twitter: "zamburts",
+        linkedin: "ricardo-cervantes-quiroz-89b074238",
+        distrikt: "ricardocerv14"
     },{
         name: "Juan Ávila",
         role: "",
