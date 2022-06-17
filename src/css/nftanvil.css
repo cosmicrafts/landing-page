@@ -1,0 +1,35 @@
+.BackGround {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 657px;
+    padding-top: 86px;
+}
+
+p{
+    color: white;
+    font-size: medium;
+    text-align: justify;
+}
+
+.ships{
+    width: 100%;
+    max-width: 512px;
+}
+
+#nftanvil_icon
+{
+    width: 100%;
+    max-width: 128px;
+}
+
+#nftanvil_btn
+{
+    width: 242px;
+    height: 56px;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 32px;
+}
