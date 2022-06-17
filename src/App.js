@@ -10,6 +10,7 @@ import NFTAnvil from './sections/nftanvil/nftanvil';
 import Team from './sections/team/team';
 
 import "./css/font.css";
+import "./css/html.css";
 
 function App() {
   return (
