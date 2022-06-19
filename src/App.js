@@ -8,6 +8,7 @@ import Future from './sections/future/future';
 import Header from './sections/header/header';
 import Main from './sections/main/main';
 import NFTAnvil from './sections/nftanvil/nftanvil';
+import Roadmap from './sections/roadmap/roadmap';
 import Team from './sections/team/team';
 
 import "./css/font.css";
@@ -24,6 +25,7 @@ function App() {
       <NFTAnvil/>
       <Future />
       <DividerThree />
+      <Roadmap />
       <Team />
       <Fundrising />
       <Footer />
