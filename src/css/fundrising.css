@@ -29,7 +29,7 @@
     width: 15vw;
     --ratio: calc(418 / 301);
     height: calc(15vw * var(--ratio));
-    top: 15vh;
+    top: 7vw;
     position: absolute;
     background: url("../resources/fundrising/fundrising_stats.svg");
     background-size: cover;
@@ -38,25 +38,26 @@
     font-family: "neue-bold";
     color: #FFFFFF;
     white-space: nowrap;
-    line-height: 6vh;
-    font-size: 4.1vh;
+    line-height: 3.5vw;
+    font-size: 2.3vw;
     position: absolute;
     width: 31vw;
     left: 16vw;
-    top: 15vh;
+    top: 7vw;
 }
 .fundrising-title-big{
-    font-size: 7.9vh;
+    font-size: 4.45vw;
 }
 .fundrising-text{
     font-family: "neue-thin";
     color: #FFFFFF;
-    font-size: 3vh;
+    font-size: 1.75vw;
     text-align: justify;
     position: absolute;
     width: 31vw;
     left: 16vw;
-    top: 30vh;
+    line-height: 2vw;
+    top: 16vw;
 }
 .fundrising-text-bold{
     font-family: "neue-regular";
@@ -67,12 +68,13 @@
     --ratio: calc(57 / 163);
     height: calc(10vw * var(--ratio));
     left: 23vw;
-    top: 53vh;
+    top: 28vw;
     background: url("../resources/about/btn_about_deck.png");
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 1;
+    transition: 200ms;
 }
 .fundrising-btn-deck:hover{
     width: 11vw;
@@ -85,12 +87,13 @@
     --ratio: calc(57 / 163);
     height: calc(14vw * var(--ratio));
     left: 34vw;
-    top: 53vh;
+    top: 28vw;
     background: url("../resources/about/btn_about_wp.png");
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 1;
+    transition: 200ms;
 }
 .fundrising-btn-whitepaper:hover{
     width: 15vw;

@@ -24,15 +24,14 @@ export default function Footer(props){
                     <a className="alinks" href="#tokens">TOKENS</a><br />
                     <a className="alinks" href="#INVESTORS">INVESTORS</a><br />
                 </span>
-                <div className="v21_45">
-                    <a href="#DISTRIK"><div className="v21_66"></div></a>
-                    <a href="#DISTRIK"><div className="v21_65"></div></a>
-                    <a href="#DISTRIK"><div className="v21_64"></div></a>
-                    <a href="#DISTRIK"><div className="v21_63"></div></a>
-                    <a href="#DISTRIK"><div className="v21_61"></div></a>
-                    <a href="#DISTRIK"><div className="v21_62"></div></a>
-                    <a href="#DISTRIK"><div className="v21_67"></div></a>
-                </div>
+                <a href="#DISTRIK"><div className="v21_66"></div></a>
+                <a href="#DISTRIK"><div className="v21_65"></div></a>
+                <a href="#DISTRIK"><div className="v21_64"></div></a>
+                <a href="#DISTRIK"><div className="v21_63"></div></a>
+                <a href="#DISTRIK"><div className="v21_61"></div></a>
+                <a href="#DISTRIK"><div className="v21_62"></div></a>
+                <a href="#DISTRIK"><div className="v21_67"></div></a>
+                <div className="logoWoU"></div>
             </div>
         </div>
     );

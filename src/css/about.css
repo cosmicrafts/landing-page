@@ -1,22 +1,8 @@
-/* Resources */
-@font-face {
-    font-family: 'neue-regular';
-    src: local('neue-regular'), url(../resources/fonts/neue/NeueHaasDisplayMediu.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-@font-face {
-    font-family: 'neue-thin';
-    src: local('neue-thin'), url(../resources/fonts/neue/NeueHaasDisplayThin.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'neue-bold';
-    src: local('neue-bold'), url(../resources/fonts/neue/NeueHaasDisplayBlack.ttf) format('truetype');
-}
 /* Full document */
 .about-div{
-    width: 100%;
-    height: 80vh;
+    width: 100vw;
+    --ratio: calc(905 / 1920);
+    height: calc(100vw * var(--ratio));
     background:  url("../resources/about/AboutUs-BG.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -28,24 +14,22 @@
     overflow: hidden;
 }
 .about-left{
-    width: 43%;
-    height: 90%;
+    width: 50vw;
+    --ratio: calc(905 / 1920);
+    height: calc(100vw * var(--ratio));
     /* background: rgba(0,0,0,1);
     border: 1px solid red; */
     position: relative;
-    top: 5%;
-    margin-left: 5%;
     overflow: visible;
     display: inline-block;
     vertical-align: middle;
-    }
+}
 .about-right {
-    width: 43%;
-    height: 90%;
+    width: 50vw;
+    --ratio: calc(905 / 1920);
+    height: calc(100vw * var(--ratio));
     /* background: rgba(0,0,0,1); */
     position: relative;
-    top: 5%;
-    margin-left: 4%;
     overflow: visible;
     display: inline-block;
     vertical-align: middle;
@@ -69,10 +53,11 @@
     }
 .about-right-section1{
     height: auto;
-    width: 100%;
+    width: 30vw;
     /* background: rgba(138, 37, 37, 1); */
     position: relative;
-    top: 50%;
+    top: 14vw;
+    left: 5vw;
     transform: translate(0%, -50%); -ms-transform: translate(-50%, -50%);
     }
 
@@ -96,17 +81,6 @@
     /* border: 1px solid green; */
     
 }
-/* .btn-lbl-about{
-    color: #FFFFFF;
-    font-family: "neue-bold";
-    font-size: 1.25vw;
-    position: absolute;
-    pointer-events: none;
-    width: 100%;
-    top: 1.25vh;
-    text-align: center;
-    border: 1px solid rgb(102, 35, 93);
-} */
 .btn-about-deck{
     background: url("../resources/about/btn_about_deck.png");
     background-repeat: no-repeat;
@@ -122,52 +96,50 @@
     background: url("../resources/about/btn_about_wt.png");
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
+    position: absolute;
     display: inline-block;
     text-align: start;
     width: 44%;
     height: 6vh;
-    margin-top: 2vh;
+    top: 31vw;
     cursor: pointer;
-    /* border: 1px solid green; */
+    left: 17vw;
     
 }
 .about-text-bold {
-    width: 100%;
     color: rgba(255,255,255,1);
     position: relative;
     top: 0px;
     left: 0px;
-    font-size: 2vmin;
+    font-size: 1.5vw;
     font-family: 'neue-bold';
-    opacity: 1;
-    text-align: justify;
 }
 .about-text {
-    width: 100%;
+    width: 35vw;
     color: rgba(255,255,255,1);
     position: relative;
     top: 0px;
     left: 0px;
-    font-size: 2vmin;
+    font-size: 1.35vw;
     font-family: 'neue-thin';
     opacity: 1;
     text-align: justify;
 }
 .video {
-    width: 100%;
-    height: 24.1875vmin;
+    width: 30vw;
+    --ratio: calc(529 / 870);
+    height: calc(30vw * var(--ratio));
     background: url("../resources/about/v7_55.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    right: 0vw;
+    top: 12vw;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
     }

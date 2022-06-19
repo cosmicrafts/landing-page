@@ -2,8 +2,10 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 657px;
-    padding-top: 86px;
+    --ratio: calc(657 / 1920);
+    height: calc(100vw * var(--ratio));
+    padding-top: 3vw;
+    margin-top: -6vw;
 }
 
 p{

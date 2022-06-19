@@ -18,8 +18,9 @@ export default function About(props){
             </div>
             <div className="about-right">
                 <div className="about-right-section1">
-                    <span className="about-text-bold ">A real-time strategy game built-in web3</span>
-                    <span className="about-text"> to experience action packed and fast-paced intergalactic warfare by commanding your own space fleet.</span>
+                    <span className="about-text">
+                        <span className="about-text-bold ">A real-time strategy game built-in web3</span> to experience action packed and fast-paced intergalactic warfare by commanding your own space fleet.
+                    </span>
                     
                     <div className="div-buttons">
                         <div className="btn-about-deck" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }></div>
@@ -30,10 +31,8 @@ export default function About(props){
 
                     <div className="video"></div>
 
-                    <div className="div-buttons">
-                        <div className="btn-about-wt" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>
-                            {/* <label className="btn-lbl-header">WHITEPAPER</label> */}
-                        </div>
+                    <div className="btn-about-wt" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>
+                        {/* <label className="btn-lbl-header">WHITEPAPER</label> */}
                     </div>
         
                 </div>
