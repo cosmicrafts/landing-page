@@ -2,7 +2,7 @@
     width: 101vw;
     --ratio: calc(2163 / 1922);
     height: calc(101vw * var(--ratio));
-    background: url("../resources/roadmap/roadmap_background.svg");
+    background: url("../resources/roadmap/roadmap_background.png");
     background-size: cover;
     margin-bottom: calc(-12vh * var(--ratio));
     position: relative;
@@ -76,7 +76,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_one_bkg.svg");
+    background: url("../resources/roadmap/roadmap_bkg_01.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -89,7 +89,7 @@
     --ratio: calc(318 / 446);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_one_ships.svg");
+    background: url("../resources/roadmap/roadmap_section_one_ships.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_two_bkg.svg");
+    background: url("../resources/roadmap/roadmap_bkg_02.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -176,7 +176,7 @@
     --ratio: calc(318 / 446);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_two_ships.svg");
+    background: url("../resources/roadmap/roadmap_section_two_ships.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -193,7 +193,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_three_bkg.svg");
+    background: url("../resources/roadmap/roadmap_bkg_03.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -206,7 +206,7 @@
     --ratio: calc(318 / 446);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_three_ships.svg");
+    background: url("../resources/roadmap/roadmap_section_three_ships.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -220,7 +220,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_four_bkg.svg");
+    background: url("../resources/roadmap/roadmap_bkg_04.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -233,7 +233,7 @@
     --ratio: calc(318 / 446);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_section_four_ships.svg");
+    background: url("../resources/roadmap/roadmap_section_four_ships.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

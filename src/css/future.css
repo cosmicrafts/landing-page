@@ -3,7 +3,7 @@
   width: 100vw;
   --ratio: calc(760 / 1920);
   height: calc(var(--ratio) * 100vw);
-  background: url("../resources/future/future_background.svg");
+  background: url("../resources/future/v14_55.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

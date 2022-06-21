@@ -73,9 +73,9 @@ body {
   overflow: hidden;
 }
 .v18_63 {
-  width: 30vw;
-  --ratio: calc(333 / 592);
-  height: calc(30vw * var(--ratio));
+  width: 25vw;
+  --ratio: calc(386 / 498);
+  height: calc(25vw * var(--ratio));
   background: url("../resources/dividerOne/v18_63.png");
   background-repeat: no-repeat;
   background-position: center center;
