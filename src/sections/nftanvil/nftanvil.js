@@ -12,13 +12,13 @@ export default function NFTAnvil()
         <Container className="BackGround" fluid style={{backgroundImage: `url(${BackGround})`}}>
             <Row className="justify-content-md-center text-center align-items-center">
                 <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-                    <Image className="ships" src={Hammer}/>
+                    <Image className="ships" src={Hammer} alt="left ship"/>
                 </Col>
                 <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-                    <Image id="nftanvil_icon" src={NFTAnvilLogo}/>
+                    <Image id="nftanvil_icon" src={NFTAnvilLogo} alt="NFTAnvil logo"/>
                 </Col>
                 <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-                    <Image className="ships" src={Goblin}/>
+                    <Image className="ships" src={Goblin} alt="right ship"/>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">

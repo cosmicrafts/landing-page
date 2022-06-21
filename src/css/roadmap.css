@@ -76,7 +76,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_bkg_01.jpg");
+    background: url("../resources/roadmap/roadmap_bkg_01.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_bkg_02.jpg");
+    background: url("../resources/roadmap/roadmap_bkg_02.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -193,7 +193,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_bkg_03.jpg");
+    background: url("../resources/roadmap/roadmap_bkg_03.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -220,7 +220,7 @@
     --ratio: calc(313 / 1239);
     height: calc(var(--width) * var(--ratio));
     width: var(--width);
-    background: url("../resources/roadmap/roadmap_bkg_04.jpg");
+    background: url("../resources/roadmap/roadmap_bkg_04.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

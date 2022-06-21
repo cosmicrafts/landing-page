@@ -16,7 +16,7 @@
 }
 /* Full document */
 .main-div{
-    background: url('../resources/main/bg_image.png') no-repeat center center fixed; 
+    background: url('../resources/main/bg_image.webp') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
