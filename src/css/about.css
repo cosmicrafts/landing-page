@@ -3,7 +3,7 @@
     width: 100vw;
     --ratio: calc(905 / 1920);
     height: calc(100vw * var(--ratio));
-    background:  url("../resources/about/AboutUs-BG.png");
+    background:  url("../resources/about/about_bkg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

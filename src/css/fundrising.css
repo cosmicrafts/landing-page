@@ -1,7 +1,7 @@
 .fundrising-div{
     position: relative;
     --ratio: calc(223 / 480);
-    margin-bottom: calc(-40vh * var(--ratio));
+    margin-bottom: calc(-20vw * var(--ratio));
 }
 .fundrising-background{
     width: 100vw;
@@ -14,14 +14,14 @@
     width: 25vw;
     height: 25vw;
     position: absolute;
-    background: url("../resources/fundrising/fundrising_leftship.svg");
+    background: url("../resources/fundrising/fundrising_leftship.png");
     background-size: cover;
     top: 12vh;
 }
 .fundrising-mid-div{
     position: absolute;
     width: 50vw;
-    height: 70vh;
+    height: 40vw;
     left: 25vw;
     top: 5vh;
 }
@@ -105,6 +105,6 @@
     height: 45vw;
     position: absolute;
     right: -1vw;
-    background: url("../resources/fundrising/fundrising_rightship.svg");
+    background: url("../resources/fundrising/fundrising_rightship.png");
     background-size: cover;
 }

@@ -3,7 +3,7 @@
   width: 100vw;
   --ratio: calc(386 / 2010);
   height: calc(var(--ratio) * 100vw);
-  background: url("../resources/dividerTwo/dividerTwoBackground.svg");
+  background: url("../resources/dividerTwo/dividerTwoBackground.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

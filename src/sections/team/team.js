@@ -8,6 +8,8 @@ import distrikt from "../../resources/team/distrikt_logo.svg";
 
 export default function Team(props){
 
+    let count = 0;
+
     let team = [{
         name: "Omar Hernandez",
         role: "Founder",
@@ -196,8 +198,9 @@ export default function Team(props){
                     <div className="team-panel-div">
                         {team.map((m) => {
                             let _img = "./team/" + m.image;
+                            count++;
                             return(
-                                <div className="team-slot-div">
+                                <div className="team-slot-div" key={"member_" + count}>
                                     <img src={_img} alt={"Picture " + m.name} className="pic-team" />
                                     <label className="team-name">{m.name}</label>
                                     <label className="team-role">{m.role}</label>
