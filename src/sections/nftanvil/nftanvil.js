@@ -1,7 +1,7 @@
 import { Col, Container, Image, Row, Button } from "react-bootstrap";
 import BackGround from "../../resources/nftanvil/nftanvil_background.png";
-import Goblin from "../../resources/nftanvil/goblin_ship.png";
-import Hammer from "../../resources/nftanvil/hammer_ship.png";
+import Goblin from "../../resources/nftanvil/Goblin_ship.png";
+import Hammer from "../../resources/nftanvil/Hammer_ship.png";
 import NFTAnvilLogo from "../../resources/nftanvil/nftanvil_icon.png";
 import NFTAnvilLink from "../../resources/nftanvil/marketplace_btn.png";
 import "../../css/nftanvil.css";
