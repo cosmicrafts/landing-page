@@ -4,7 +4,7 @@ import "./css/font.css";
 import "./css/html.css";
 
 const About = React.lazy(() => import('./sections/about/about'));
-const DividerThree = React.lazy(() => import('./sections/divider/firstDivider'));
+const DividerThree = React.lazy(() => import('./sections/divider/dividerThree'));
 const DividerTwo = React.lazy(() => import('./sections/divider/dividerTwo'));
 const FirstDivider = React.lazy(() => import('./sections/divider/firstDivider'));
 const Footer = React.lazy(() => import('./sections/footer/footer'));
