@@ -1,19 +1,4 @@
 /* pk34 */
-/* Resources */
-@font-face {
-    font-family: 'neue-regular';
-    src: local('neue-regular'), url(../resources/fonts/neue/NeueHaasDisplayMediu.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-@font-face {
-    font-family: 'neue-thin';
-    src: local('neue-thin'), url(../resources/fonts/neue/NeueHaasDisplayThin.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'neue-bold';
-    src: local('neue-bold'), url(../resources/fonts/neue/NeueHaasDisplayBlack.ttf) format('truetype');
-}
 /* Full document */
 .main-div{
     background: url('../resources/main/bg_image.webp') no-repeat center center fixed; 
