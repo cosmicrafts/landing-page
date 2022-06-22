@@ -7,7 +7,7 @@
     width: 100vw;
     --ratio: calc(1343 / 1917);
     height: calc(100vw * var(--ratio));
-    background: url("../resources/team/team_background.svg");
+    background: url("../resources/team/team_background.png");
     background-size: cover;
 }
 .team-inner-div{

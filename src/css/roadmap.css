@@ -6,6 +6,7 @@
     background-size: cover;
     margin-bottom: calc(-12vh * var(--ratio));
     position: relative;
+    z-index: 1;
 }
 .roadmap-title-div{
     position: absolute;
