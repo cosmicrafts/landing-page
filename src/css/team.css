@@ -9,6 +9,7 @@
     height: calc(100vw * var(--ratio));
     background: url("../resources/team/team_background.png");
     background-size: cover;
+    margin-bottom: -29vh;
 }
 .team-inner-div{
     position: absolute;
