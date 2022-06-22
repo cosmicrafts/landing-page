@@ -1,5 +1,5 @@
 .v19_104 {
-  margin-top: -7vh;
+  margin-top: -8vh;
   width: 100vw;
   --ratio: calc(386 / 2010);
   height: calc(var(--ratio) * 100vw);

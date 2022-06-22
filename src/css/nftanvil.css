@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     --ratio: calc(657 / 1920);
     height: calc(100vw * var(--ratio));
-    padding-top: 3vw;
+    padding-top: 2vw;
     margin-top: -6vw;
 }
 
