@@ -64,7 +64,6 @@ export default function Main(props){
                 <div id="flashlights" className="flashlights"></div>
             </div>
             <div className="div-panel">
-                <img src={panel} className="img-panel" alt="panel" />
                 <div className="title-div-panel">
                     <label className="title-panel">SUPERNOVA</label>
                 </div>

@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
 .footer-div{
   position: relative;
   display: flex;
