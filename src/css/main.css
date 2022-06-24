@@ -519,3 +519,55 @@
         cursor: pointer;
     }
 }
+@media(min-width: 1921px){
+    /*Flashlights*/
+    .flashlights{
+        width: 200vw;
+    }
+    /*Planet*/
+    .planet-center{
+        position: absolute;
+        width: 300vw;
+        left: 0vw;
+        top: 0vh;
+    }
+    /*Ship Left*/
+    .ship-animation-left{
+        position: absolute;
+        top: -10vh;
+    }
+    /*Ship right*/
+    .ship-animation-right{
+        width: 85vw;
+        margin-left: 35vw;
+        margin-top: -45vh;
+    }
+    /*Mid Panel*/
+    .div-panel{
+        width: 20vw;
+        --ratio: calc(638 / 488);
+        height: calc(20vw * var(--ratio));
+        left: 40vw;
+        top: calc(2vw + 10vh);
+    }
+    .title-div-panel{
+        top: 50%;
+    }
+    .title-panel{
+        font-size: 0.75vw;
+    }
+    .text-panel{
+        font-size: 0.75vw;
+    }
+
+    /*Discord*/
+    .div-dicord{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+    }
+    .btn-discord{
+        width: 100%;
+        cursor: pointer;
+    }
+}
