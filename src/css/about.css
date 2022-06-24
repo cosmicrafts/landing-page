@@ -142,4 +142,74 @@
     border-bottom-right-radius: 8px;
     overflow: hidden;
     cursor: pointer;
+}
+
+@media(max-width: 374px){
+    /* Full document */
+    .about-div{
+        --ratio: calc(573 / 361);
+        background:  url("../resources/about/about_mobile_bkg.png");
     }
+    .about-left{
+        width: 100vw;
+    }
+    .about-left-image{
+        width: 50vw;
+        --ratio: calc(661 / 566);
+        height: calc(50vw * var(--ratio));
+        top: calc(30vw * var(--ratio));
+    }
+    .about-right {
+        width: 100vw;
+    }
+    .about-right-section1{
+        width: 80vw;
+        position: relative;
+        top: 32vw;
+        left: 10vw;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 3.75vw;
+    }
+    .about-text-bold {
+        font-size: 3.75vw;
+    }
+    .div-buttons{
+        text-align: right;
+    }
+    .btn-about-whitepaper{
+        width: 40%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+        /* border: 1px solid green; */
+        
+    }
+    .btn-about-deck{
+        background: url("../resources/about/btn_about_deck.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+    }
+    .btn-about-wt{
+        width: 44%;
+        height: 6vh;
+        top: 80vw;
+        right: 0vw;
+        left: auto;
+    }
+    .video {
+        width: 80vw;
+        --ratio: calc(161 / 265);
+        height: calc(80vw * var(--ratio));
+        background: url("../resources/about/img_video.png");
+        background-size: contain;
+        top: 30vw;
+    }
+}
