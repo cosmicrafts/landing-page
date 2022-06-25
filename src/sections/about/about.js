@@ -25,14 +25,12 @@ export default function About(props){
                     <div className="div-buttons">
                         <div className="btn-about-deck" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }></div>
                         <div className="btn-about-whitepaper" onClick={() => {  window.open("https://wp.cosmicrafts.com"); } }>
-                            {/* <label className="btn-lbl-about">WHITEPAPER</label> */}
                         </div>
                     </div>
 
                     <div className="video"></div>
 
                     <div className="btn-about-wt" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>
-                        {/* <label className="btn-lbl-header">WHITEPAPER</label> */}
                     </div>
         
                 </div>
