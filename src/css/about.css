@@ -28,12 +28,11 @@
     width: 50vw;
     --ratio: calc(905 / 1920);
     height: calc(100vw * var(--ratio));
-    /* background: rgba(0,0,0,1); */
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    }
+}
 .about-left-image{
     
    /*  border: 3px solid green; */
@@ -142,4 +141,277 @@
     border-bottom-right-radius: 8px;
     overflow: hidden;
     cursor: pointer;
+}
+
+@media(max-width: 374px){
+    /* Full document */
+    .about-div{
+        --ratio: calc(573 / 360);
+        background:  url("../resources/about/about_mobile_bkg.png");
+        background-size: cover;
     }
+    .about-left{
+        width: 100vw;
+    }
+    .about-left-image{
+        width: 50vw;
+        --ratio: calc(661 / 566);
+        height: calc(50vw * var(--ratio));
+        top: calc(30vw * var(--ratio));
+    }
+    .about-right {
+        width: 100vw;
+        --ratio: calc(661 / 566);
+        height: calc(100vw * var(--ratio));
+    }
+    .about-right-section1{
+        width: 80vw;
+        position: relative;
+        top: 32vw;
+        left: 10vw;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 3.75vw;
+    }
+    .about-text-bold {
+        font-size: 3.75vw;
+    }
+    .div-buttons{
+        text-align: right;
+    }
+    .btn-about-whitepaper{
+        width: 40%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+        /* border: 1px solid green; */
+        
+    }
+    .btn-about-deck{
+        background: url("../resources/about/btn_about_deck.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+    }
+    .btn-about-wt{
+        width: 44%;
+        height: 6vh;
+        top: 80vw;
+        right: 0vw;
+        left: auto;
+    }
+    .video {
+        width: 80vw;
+        --ratio: calc(161 / 265);
+        height: calc(80vw * var(--ratio));
+        background: url("../resources/about/img_video.png");
+        background-size: contain;
+        top: 30vw;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+    /* Full document */
+    .about-div{
+        --ratio: calc(573 / 360);
+        background:  url("../resources/about/about_mobile_bkg.png");
+        background-size: cover;
+    }
+    .about-left{
+        width: 100vw;
+    }
+    .about-left-image{
+        width: 50vw;
+        --ratio: calc(661 / 566);
+        height: calc(50vw * var(--ratio));
+        top: calc(30vw * var(--ratio));
+    }
+    .about-right {
+        width: 100vw;
+        --ratio: calc(661 / 566);
+        height: calc(100vw * var(--ratio));
+    }
+    .about-right-section1{
+        width: 80vw;
+        position: relative;
+        top: 32vw;
+        left: 10vw;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 3.75vw;
+    }
+    .about-text-bold {
+        font-size: 3.75vw;
+    }
+    .div-buttons{
+        text-align: right;
+    }
+    .btn-about-whitepaper{
+        width: 40%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+        /* border: 1px solid green; */
+        
+    }
+    .btn-about-deck{
+        background: url("../resources/about/btn_about_deck.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+    }
+    .btn-about-wt{
+        width: 44%;
+        height: 6vh;
+        top: 80vw;
+        right: 0vw;
+        left: auto;
+    }
+    .video {
+        width: 80vw;
+        --ratio: calc(161 / 265);
+        height: calc(80vw * var(--ratio));
+        background: url("../resources/about/img_video.png");
+        background-size: contain;
+        top: 30vw;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 767px){
+    /* Full document */
+    .about-div{
+        --ratio: calc(573 / 360);
+        background:  url("../resources/about/about_mobile_bkg.png");
+        background-size: cover;
+    }
+    .about-left{
+        width: 100vw;
+    }
+    .about-left-image{
+        width: 45vw;
+        --ratio: calc(661 / 566);
+        height: calc(45vw * var(--ratio));
+        top: calc(27vw * var(--ratio));
+    }
+    .about-right {
+        width: 100vw;
+        --ratio: calc(661 / 566);
+        height: calc(100vw * var(--ratio));
+    }
+    .about-right-section1{
+        width: 80vw;
+        position: relative;
+        top: 25vw;
+        left: 10vw;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 3.75vw;
+    }
+    .about-text-bold {
+        font-size: 3.75vw;
+    }
+    .div-buttons{
+        text-align: right;
+    }
+    .btn-about-whitepaper{
+        width: 40%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+        /* border: 1px solid green; */
+        
+    }
+    .btn-about-deck{
+        background: url("../resources/about/btn_about_deck.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        height: 10vw;
+        margin-top: 1vw;
+        cursor: pointer;
+    }
+    .btn-about-wt{
+        width: 44%;
+        height: 6vh;
+        top: 80vw;
+        right: 0vw;
+        left: auto;
+    }
+    .video {
+        width: 80vw;
+        --ratio: calc(161 / 265);
+        height: calc(80vw * var(--ratio));
+        background: url("../resources/about/img_video.png");
+        background-size: contain;
+        top: 30vw;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .about-div{
+        width: 100vw;
+        --ratio: calc(566 / 821);
+        height: calc(100vw * var(--ratio));
+        background:  url("../resources/about/about_tablet_bkg.png");
+        background-size: cover;
+    }
+    .about-left{
+        width: 50vw;
+        --ratio: calc(661 / 566);
+        height: calc(50vw * var(--ratio));
+    }
+    .about-left-image{
+        width: 40vw;
+        --ratio: calc(661 / 566);
+        height: calc(40vw * var(--ratio));
+        top: 30vw;
+    }
+    .about-right {
+        width: 50vw;
+        --ratio: calc(661 / 566);
+        height: calc(50vw * var(--ratio));
+    }
+    .about-right-section1{
+        width: 40vw;
+        top: 16vw;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 1.9vw;
+    }
+    .about-text-bold {
+        font-size: 1.9vw;
+    }
+    .btn-about-whitepaper{
+        height: 5vw;
+        margin-top: 1vw;
+    }
+    .btn-about-deck{
+        height: 5vw;
+        margin-top: 1vw;
+    }
+    .video {
+        width: 40vw;
+        height: calc(40vw * var(--ratio));
+        top: 16vw;
+    }
+    .btn-about-wt{
+        top: 42vw;
+        left: auto;
+        right: 0vw;
+    }
+}

@@ -11,7 +11,6 @@ import shipLeft from '../../resources/animations/TerraformAnim.json'
 import shipRight from '../../resources/animations/HawkIdle.json'
 import ap320 from '../../resources/animations/AP320.json'
 import flashLight from '../../resources/animations/Flashlights.json'
-import panel from "../../resources/main/main_panel.svg";
 import dfinityLogo from "../../resources/main/dfinity_logo.svg";
 import playBtn from "../../resources/main/play_btn.svg";
 

@@ -1,13 +1,12 @@
 .roadmap-div{
-    width: 101vw;
+    width: 100%;
     --ratio: calc(2163 / 1922);
-    height: calc(101vw * var(--ratio));
+    height: calc(100vw * var(--ratio));
     background: url("../resources/roadmap/roadmap_background.png");
     background-size: cover;
     margin-bottom: calc(-12vh * var(--ratio));
     position: relative;
     z-index: 1;
-    margin-bottom: -17vh;
 }
 .roadmap-title-div{
     position: absolute;
