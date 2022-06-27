@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 
 import "./css/font.css";
 import "./css/html.css";
+import wou_logo from "./resources/footer/LogoWoU.svg";
 
 const About = React.lazy(() => import('./sections/about/about'));
 const DividerThree = React.lazy(() => import('./sections/divider/dividerThree'));
@@ -16,10 +17,11 @@ const NFTAnvil = React.lazy(() => import('./sections/nftanvil/nftanvil'));
 const Roadmap = React.lazy(() => import('./sections/roadmap/roadmap'));
 const Team = React.lazy(() => import('./sections/team/team'));
 
+
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className='loading-bkg'><img src={wou_logo} className="wou-logo-loading" alt="Worl of Unreal" /></div>}>
         <Header />
         <Main />
         <FirstDivider />

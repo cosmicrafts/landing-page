@@ -149,6 +149,8 @@
         --ratio: calc(573 / 360);
         background:  url("../resources/about/about_mobile_bkg.png");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     .about-left{
         width: 100vw;
@@ -221,6 +223,8 @@
     .about-div{
         --ratio: calc(573 / 360);
         background:  url("../resources/about/about_mobile_bkg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
     }
     .about-left{
@@ -295,6 +299,9 @@
         --ratio: calc(573 / 360);
         background:  url("../resources/about/about_mobile_bkg.png");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
     .about-left{
         width: 100vw;
@@ -367,6 +374,9 @@
         --ratio: calc(566 / 821);
         height: calc(100vw * var(--ratio));
         background:  url("../resources/about/about_tablet_bkg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
     }
     .about-left{

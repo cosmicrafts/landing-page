@@ -2,3 +2,21 @@ html{
     overflow-x: hidden;
     width: 100vw;
 }
+.loading-bkg{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.wou-logo-loading{
+    width: 25vw;
+    position: absolute;
+    left: 37.5vw;
+    top: 40vh;
+}
+@media(max-width: 767px){
+    .wou-logo-loading{
+        width: 50vw;
+        left: 25vw;
+        top: 35vw;
+    }
+}
