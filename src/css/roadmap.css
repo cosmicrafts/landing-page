@@ -1,6 +1,6 @@
 .roadmap-div{
     width: 100%;
-    --ratio: calc(2163 / 1922);
+    --ratio: calc(2163 / 1868);
     height: calc(100vw * var(--ratio));
     background: url("../resources/roadmap/roadmap_background.png");
     background-size: cover;
