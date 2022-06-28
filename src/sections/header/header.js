@@ -56,6 +56,8 @@ export default function Header(props){
                 <div className="btn-header-div" onClick={() => { load("https://play.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">LOGIN</label>
                 </div>
+                <div className="btn-header-whitepaper-button" onClick={() => { goTo("https://wp.cosmicrafts.com"); }}></div>
+                <div className="btn-header-wallet-icon"></div>
             </div>
         </div>
     );

@@ -1,19 +1,4 @@
 /* pk34 */
-/* Resources */
-@font-face {
-    font-family: 'neue-regular';
-    src: local('neue-regular'), url(../resources/fonts/neue/NeueHaasDisplayMediu.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-@font-face {
-    font-family: 'neue-thin';
-    src: local('neue-thin'), url(../resources/fonts/neue/NeueHaasDisplayThin.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'neue-bold';
-    src: local('neue-bold'), url(../resources/fonts/neue/NeueHaasDisplayBlack.ttf) format('truetype');
-}
 /* background header */
 .header-div{
     position: fixed;
@@ -106,4 +91,118 @@
     pointer-events: none;
     width: 100%;
     top: 1.25vh;
+}
+.btn-header-wallet-icon{
+    display: none;
+}
+.btn-header-whitepaper-button{
+    display: none;
+}
+
+@media(max-width: 767px){
+    /* background header */
+    .header-div{
+        height: 8vh;
+    }
+    /* Logo */
+    .header-div-logo{
+        position: absolute;
+        width: 37vw;
+        left: 0vw;
+        top: 2vh;
+    }
+    .header-logo{
+        width: 5vh;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    /* Icons */
+    .header-div-icon{
+        display: none;
+    }
+    .btn-header-div{
+        display: none;
+    }
+    .btn-header-div-play{
+        display: none;
+    }
+    .btn-header-wallet-icon{
+        display: inline-block;
+        background: url("../resources/menu/wallet_icon.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        right: 4vw;
+        top: 4vw;
+        cursor: pointer;
+    }
+    .btn-header-whitepaper-button{
+        display: inline-block;
+        background: url("../resources/menu/btn_whitepaper.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 30vw;
+        --ratio: calc(45 / 168);
+        height: calc(30vw * var(--ratio));
+        position: absolute;
+        right: 15vw;
+        top: 4vw;
+        cursor: pointer;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+    /* background header */
+    .header-div{
+        height: 8vh;
+    }
+    /* Logo */
+    .header-div-logo{
+        position: absolute;
+        width: 37vw;
+        left: 0vw;
+        top: 2vh;
+    }
+    .header-logo{
+        width: 5vh;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    /* Icons */
+    .header-div-icon{
+        display: none;
+    }
+    .btn-header-div{
+        display: none;
+    }
+    .btn-header-div-play{
+        display: none;
+    }
+    .btn-header-wallet-icon{
+        display: inline-block;
+        background: url("../resources/menu/wallet_icon.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 5vw;
+        height: 5vw;
+        position: absolute;
+        right: 4vw;
+        top: 4vw;
+        cursor: pointer;
+    }
+    .btn-header-whitepaper-button{
+        display: inline-block;
+        background: url("../resources/menu/btn_whitepaper.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 23vw;
+        --ratio: calc(45 / 168);
+        height: calc(23vw * var(--ratio));
+        position: absolute;
+        right: 12vw;
+        top: 4vw;
+        cursor: pointer;
+    }
 }
