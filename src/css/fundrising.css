@@ -16,7 +16,7 @@
     position: absolute;
     background: url("../resources/fundrising/fundrising_leftship.png");
     background-size: cover;
-    top: 12vh;
+    top: 10vw;
 }
 .fundrising-mid-div{
     position: absolute;
@@ -107,4 +107,16 @@
     right: 0vw;
     background: url("../resources/fundrising/fundrising_rightship.png");
     background-size: cover;
+}
+
+@media(max-width: 767px){
+    .fundrising-left-ship{
+        top: 10vw;
+    }
+    .fundrising-mid-div{
+        top: 5vw;
+    }
+    .fundrising-title-big{
+        font-size: 4.45vw;
+    }
 }
