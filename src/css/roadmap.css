@@ -4,7 +4,7 @@
     height: calc(100vw * var(--ratio));
     background: url("../resources/roadmap/roadmap_background.png");
     background-size: cover;
-    margin-bottom: calc(-12vh * var(--ratio));
+    margin-bottom: calc(-7vw * var(--ratio));
     position: relative;
     z-index: 1;
 }
