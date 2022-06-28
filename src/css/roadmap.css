@@ -1,10 +1,10 @@
 .roadmap-div{
-    width: 100%;
-    --ratio: calc(2163 / 1922);
+    width: 100vw;
+    --ratio: calc(2163 / 1868);
     height: calc(100vw * var(--ratio));
     background: url("../resources/roadmap/roadmap_background.png");
     background-size: cover;
-    margin-bottom: calc(-12vh * var(--ratio));
+    margin-bottom: calc(-7vw * var(--ratio));
     position: relative;
     z-index: 1;
 }
@@ -251,4 +251,105 @@
     background: url("../resources/roadmap/dfinity_logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media(max-width: 767px){
+    .roadmap-title-div{
+        width: 35vw;
+        top: 7vw;
+        left: 10vw;
+    }
+    .roadmap-title{
+        font-size: 3.8vw;
+    }
+    .roadmap-title-highlight{
+        -webkit-text-stroke-width: 1px;
+        stroke-width: 1px;
+        font-size: 4.1vw;
+    }
+    .roadmap-subtitle-div{
+        width: 40vw;
+        top: 8vw;
+    }
+    .roadmap-subtitle{
+        font-size: 2vw;
+        line-height: 2.15vw;
+    }
+    /*Line*/
+    .roadmap-line{
+        --width: 3.1vw;
+        top: 20vw;
+    }
+    /*Sections*/
+    .roadmap-section-one-div{
+        --width: 75vw;
+        top: 25vw;
+    }
+    .roadmap-section-one-ships{
+        --width: 23vw;
+    }
+    .roadmap-section-one-number{
+        width: 10vw;
+        height: 12vw;
+        left: 25vw;
+        top: 3vw;
+    }
+    .roadmap-section-number{
+        -webkit-text-stroke-width: 1px;
+        stroke-width: 1px;
+        line-height: 0.1vw;
+        font-size: 6vw;
+        margin-top: 3vw;
+    }
+    .roadmap-section-hr{
+        margin-bottom: 0vw;
+    }
+    .roadmap-section-text{
+        font-size: 5vw;
+        line-height: 0.1vw;
+    }
+    .roadmap-section-textbox{
+        --width: 36vw;
+        right: 1.5vw;
+    }
+    .roadmap-section-innertext{
+        font-size: 1.75vw;
+        width: 34vw;
+        line-height: 2vw;
+    }
+    /*2*/
+    .roadmap-section-two-div{
+        --width: 75vw;
+        top: 46vw;
+    }
+    .roadmap-section-two-ships{
+        --width: 45vw;
+        left: -6vw;
+        top: -6vw;
+    }
+    .space-top-175{
+        top: 1.75vw;
+    }
+    /*3*/
+    .roadmap-section-three-div{
+        --width: 75vw;
+        top: 67vw;
+    }
+    .roadmap-section-three-ships{
+        --width: 28vw;
+    }
+    /*4*/
+    .roadmap-section-four-div{
+        --width: 75vw;
+        top: 88vw;
+    }
+    .roadmap-section-four-ships{
+        --width: 23vw;
+        left: 2vw;
+    }
+    /*End*/
+    .roadmap-dfinity-logo{
+        --width: 5vw;
+        top: 111vw;
+    }
 }

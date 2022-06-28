@@ -10,27 +10,27 @@ export default function NFTAnvil()
 {
     return(
         <Container className="BackGround" fluid style={{backgroundImage: `url(${BackGround})`}}>
-            <Row className="justify-content-md-center text-center align-items-center">
+            <Row className="justify-content-center text-center align-items-center">
                 <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
                     <Image className="ships" src={Hammer} alt="left ship"/>
                 </Col>
-                <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <Col xs={2} sm={2} md={4} lg={4} xl={4} xxl={4}>
                     <Image id="nftanvil_icon" src={NFTAnvilLogo} alt="NFTAnvil logo"/>
                 </Col>
                 <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
                     <Image className="ships" src={Goblin} alt="right ship"/>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center">
-                <Col xs={4} sm={4} md={{ span: 6}} lg={{ span: 3 }} xl={{ span: 3 }} xxl={{ span: 3 }}>
+            <Row className="justify-content-center">
+                <Col xs={{ span: 6}} sm={{ span: 6}} md={{ span: 6}} lg={{ span: 4 }} xl={{ span: 4 }} xxl={{ span: 4 }}>
                     <p className="text-justify">
-                        <strong>We've partnered with NFT Anvil to </strong>
+                        <span className="txt-strong">We've partnered with NFT Anvil to </span>
                         deliver the ultimate decentralized marketplace and trade your assets on the 
-                        <strong> Internet Computer</strong>
+                        <span className="txt-strong"> Internet Computer</span>
                     </p>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-center">
+            <Row className="justify-content-center text-center">
                 <Col>
                     <Button href="https://nftanvil.com/" id="nftanvil_btn" style={{backgroundImage: `url(${NFTAnvilLink})`}}/>
                 </Col>

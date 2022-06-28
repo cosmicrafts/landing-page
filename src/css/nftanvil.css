@@ -2,16 +2,20 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    --ratio: calc(657 / 1920);
+    --ratio: calc(1080 / 1920);
     height: calc(100vw * var(--ratio));
-    padding-top: 2vw;
+    padding-top: 7vw;
     margin-top: -6vw;
 }
 
 p{
     color: white;
-    font-size: medium;
+    font-size: calc(1vw + 0.75vh);
     text-align: justify;
+    font-family: "neue-thin";
+}
+.txt-strong{
+    font-family: "neue-regular";
 }
 
 .ships{
@@ -27,11 +31,13 @@ p{
 
 #nftanvil_btn
 {
-    width: 242px;
-    height: 56px;
+    width: 20vw;
+    --ratio: calc(57 / 242);
+    height: calc(20vw * var(--ratio));
     background-color: transparent;
     border: none;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 32px;
+    background-size: contain;
+    margin-top: calc(0.5vw + 0.5vh);
 }
