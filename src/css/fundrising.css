@@ -110,13 +110,59 @@
 }
 
 @media(max-width: 767px){
+    .fundrising-background{
+        width: 100vw;
+        --ratio: calc(1279 / 1920);
+        height: calc(100vw * var(--ratio));
+        background: url("../resources/fundrising/fundrising_mobile_bkg.png");
+        background-size: cover;
+    }
     .fundrising-left-ship{
-        top: 10vw;
+        display: none;
+    }
+    .fundrising-stats-imgs{
+        left: 65vw;
+        width: 30vw;
+        --ratio: calc(804 / 582);
+        height: calc(30vw * var(--ratio));
+        background: url("../resources/fundrising/fundrising_stats.png");
+        background-size: cover;
     }
     .fundrising-mid-div{
         top: 5vw;
+        width: 50vw;
+        height: 40vw;
+        left: 0vw;
+    }
+    .fundrising-title{
+        left: 5vw;
+        width: 40vw;
+        font-size: 3vw;
+        line-height: 5vw;
     }
     .fundrising-title-big{
-        font-size: 4.45vw;
+        font-size: 5.75vw;
+    }
+    .fundrising-right-ship{
+        display: none;
+    }
+    .fundrising-text{
+        width: 40vw;
+        top: 19vw;
+        left: 5vw;
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+    .fundrising-btn-deck{
+        width: 18vw;
+        height: calc(18vw * var(--ratio));
+        left: 5vw;
+        top: 40vw;
+    }
+    .fundrising-btn-whitepaper{
+        width: 23vw;
+        height: calc(17vw * var(--ratio));
+        left: 23vw;
+        top: 40vw;
     }
 }
