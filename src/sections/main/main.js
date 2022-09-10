@@ -24,7 +24,7 @@ export default function Main(props){
     }, []);
 
     const play = () => {
-        window.location.href = "https://play.cosmicrafts.com";
+        window.location.href = "https://beta.cosmicrafts.com";
     };
 
     useEffect(() => {
