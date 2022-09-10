@@ -51,9 +51,9 @@ export default function Header(props){
                 {/*<div className="btn-header-div" onClick={() => { goTo("https://wp.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">WHITEPAPER</label>
                 </div>*/}
-                <div className="btn-header-div-play" onClick={() => { load("https://play.cosmicrafts.com"); } }>
+                <div className="btn-header-div-play" onClick={() => { load("https://beta.cosmicrafts.com"); } }>
                 </div>
-                <div className="btn-header-div" onClick={() => { load("https://play.cosmicrafts.com"); } }>
+                <div className="btn-header-div" onClick={() => { load("https://beta.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">LOGIN</label>
                 </div>
                 <div className="btn-header-whitepaper-button" onClick={() => { goTo("https://wp.cosmicrafts.com"); }}></div>
