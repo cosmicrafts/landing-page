@@ -24,15 +24,15 @@ export default function Team(props){
         position: "Web3 Director",
         image: "pk34.svg",
         twitter: "https://twitter.com/pk34cosmicrafts",
-        linkedin: "https://linkedin/pk-p-377230238",
+        linkedin: "https://www.linkedin.com/in/frank-peguero-4108b583/",
         distrikt: "pk34"
     },{
         name: "Kristian Rimas",
         role: "Co Founder",
         position: "Product Engineer",
         image: "kurisu.svg",
-        twitter: "https://www.linkedin.com/in/kristian-erick-rimas/",
-        linkedin: "https://twitter.com/kurisu9282",
+        twitter: "https://twitter.com/kurisu9282",
+        linkedin: "https://www.linkedin.com/in/kristian-erick-rimas/",
         distrikt: "pk34" 
     }/*,{
         name: "Moises Lopez",
