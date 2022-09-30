@@ -1,4 +1,4 @@
-/// pk34
+/// pk34 - Modified: Art - 09-25-2022
 /// React
 import React, { useEffect, useState } from "react";
 
@@ -23,8 +23,12 @@ export default function Main(props){
         }
     }, []);
 
-    const play = () => {
+    /*const play = () => {
         window.location.href = "https://beta.cosmicrafts.com";
+    };*/
+
+     const goTo = (url) => {
+        window.open(url);
     };
 
     useEffect(() => {
@@ -73,7 +77,7 @@ export default function Main(props){
                 <div className="version-div-panel">
                     <label className="version-panel">v.0.5.2.3</label>
                 </div>
-                <img src={playBtn} onClick={() => { play(); }} className="play-btn-panel" alt="PLAY" />
+                <img src={playBtn} onClick={() => { goTo("https://beta.cosmicrafts.com"); }} className="play-btn-panel" alt="PLAY" />
             </div>
         </div>
     );

@@ -1,14 +1,15 @@
-/// Shizuken
+/// Shizuken - Modified: Art - 09-25-2022
 /// React
 import React from "react";
 
 /// Resources
 import "../../css/about.css";
+import deck_pdf from "../../resources/pdf/CosmicraftsPD2022.pdf";
 
 export default function About(props){
-   
-    const play = () => {
-        window.location.href = "https://play.cosmicrafts.com";
+
+     const goTo = (url) => {
+        window.open(url);
     };
 
     return(
@@ -23,14 +24,16 @@ export default function About(props){
                     </label>
                     
                     <div className="div-buttons">
-                        <div className="btn-about-deck" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }></div>
-                        <div className="btn-about-whitepaper" onClick={() => {  window.open("https://wp.cosmicrafts.com"); } }>
-                        </div>
+                        {/*<div className="btn-about-deck" onClick={() => { goTo(deck_pdf) } }></div>*/}
+                        {/*<div className="btn-about-whitepaper" onClick={() => {  window.open("https://wp.cosmicrafts.com"); } }> </div>*/}
+                        <a href={deck_pdf} className="parallel-btn parallel-yellow-btn" rel="noreferrer noopener" target="_blank">DECK</a>
+                        <a href="https://wp.cosmicrafts.com" className="parallel-btn parallel-blue-btn" rel="noreferrer noopener" target="_blank">WHITEPAPER</a>
+                       
                     </div>
 
-                    <div className="video"></div>
+                    <div className="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/N4ycbfAAHSs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-                    <div className="btn-about-wt" onClick={() => {  window.location.href = "https://play.cosmicrafts.com"; } }>
+                    <div className="btn-about-wt" onClick={() => {  goTo("https://www.youtube.com/watch?v=N4ycbfAAHSs") } }>
                     </div>
         
                 </div>

@@ -62,6 +62,17 @@
 .fundrising-text-bold{
     font-family: "neue-regular";
 }
+
+.fundrising-div .div-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 28vw;
+    left: 7vw;
+    z-index: 9;
+}
+
 .fundrising-btn-deck{
     position: absolute;
     width: 10vw;

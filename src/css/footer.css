@@ -193,6 +193,7 @@
 .alinks{
   text-decoration: none;
   color: #FFFFFF;
+  position: relative;
 }
 .logoWoU{
   width: 5vw;
@@ -206,3 +207,24 @@
   bottom: 7vw;
   left: 47.5vw;
 }
+
+.coming-soon {
+  font-size: 13px;
+  color: red;
+  display: block;
+  position: absolute;
+  top: 0px;
+  font-family: "neue-thin";
+}
+
+.investors-logo {
+  position: relative;
+  display: block;
+  top: -30px;
+}
+
+.investors-logo img {
+  max-width: 155px;
+  height: auto;
+}
+

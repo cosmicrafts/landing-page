@@ -1,0 +1,207 @@
+/* CSS DOCUMENT */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.header .logo-section .logo {
+    width: 5vh;
+}
+
+.header .logo-section .toggle {
+    width: 5vh;
+    margin-left: 10px;
+}
+
+.header .header-div-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header .social-media .sm-items a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.header .header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   /* position: absolute;
+    right: 30px;*/
+}
+
+
+/* Navigation */
+.header-navigation {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-navigation.toggle-menu {
+    left: 0;
+}
+
+.header .menu-toggle {
+    transition: all 0.3s ease-in-out;
+}
+
+.header .menu-toggle:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.header-navigation .container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-navigation .main-navigation {
+    background: url('../../resources/menu/bkg_menu.svg') no-repeat;
+    background-size: cover;
+    width: 42vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-navigation ul.navigation-items {
+    margin-top: 20px;
+}
+
+.header-navigation ul.navigation-items li {
+    display: block;
+}
+
+.header-navigation ul.navigation-items li a {
+    color: #FFF;
+    font-size: 25px;
+    border-bottom: 1px solid #a9a7a7;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header-navigation ul.navigation-items li > a:hover,
+.header-navigation ul.navigation-items li > a.active {
+    color: #FF8A00;
+}
+
+.header-navigation ul.navigation-items li > a.active.coming-soon {
+    color: #FFF;
+}
+
+.header-navigation ul.navigation-items li ul.sub-menu li a {
+    font-size: 14px;
+    padding-left: 40px;
+} 
+
+.header-navigation ul.navigation-items li a.has-children span.arrow-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+
+.header-navigation ul.navigation-items li a.has-children span.arrow-menu:hover {
+    cursor: pointer;
+    /*background: #FF8A00;*/
+    transform: rotate(90deg);
+}
+
+/* width */
+.header-navigation ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.header-navigation ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.header-navigation ::-webkit-scrollbar-thumb {
+  background: #5488fb;
+  border-radius: 5px;
+}
+
+.header .close-btn {
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+.header .close-btn .burger {
+    display: block;
+    position: relative; 
+}
+
+.header .close-btn .burger:hover {
+    cursor: pointer;
+}
+
+.header .close-btn .burger:after,
+.header .close-btn .burger:before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 10px;
+    background: #FFF;
+   /* position: absolute;*/
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.header .close-btn .burger:after {}
+.header .close-btn .burger:before {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 10px;
+}
+
+.header .close-btn .burger:hover:before,
+.header .close-btn .burger:hover:after {
+    background: #FF8A00;
+}
+
+.header .header-buttons a {
+    margin-left: 45px;
+}

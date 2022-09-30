@@ -1,6 +1,13 @@
 import React from "react";
 
 import "../../css/footer.css";
+import icpl from "../../resources/footer/ICPLeague.png";
+import dfinity from "../../resources/footer/dfinity.png";
+
+const goTo = (url) => {
+    window.open(url);
+};
+
 
 export default function Footer(props){
     return (
@@ -21,16 +28,23 @@ export default function Footer(props){
                 <a className="alinks" href="#home">HOME</a><br />
                     <a className="alinks" href="https://play.cosmicrafts.com">GAME</a><br />
                     <a className="alinks" href="#NFTS">NFTS</a><br />
-                    <a className="alinks" href="#tokens">TOKENS</a><br />
-                    <a className="alinks" href="#INVESTORS">INVESTORS</a><br />
+                    <a className="alinks" href="#tokens">TOKENS<small class="coming-soon">Coming Soon...</small></a><br />
+                    <a className="alinks" href="#INVESTORS">INVESTORS
+                        <span className="investors-logo">
+                            <img src={icpl} className="ICPLeague" alt="ICPLeague" onClick={() => goTo('https://dfinity.org/') }/>
+                            <img src={dfinity} className="dfinity" alt="DFinity" onClick={() => goTo() }/>
+                        </span>
+                    </a><br />
                 </span>
-                <a href="#DISTRIK"><div className="v21_66"></div></a>
-                <a href="#DISTRIK"><div className="v21_65"></div></a>
-                <a href="#DISTRIK"><div className="v21_64"></div></a>
-                <a href="#DISTRIK"><div className="v21_63"></div></a>
-                <a href="#DISTRIK"><div className="v21_61"></div></a>
-                <a href="#DISTRIK"><div className="v21_62"></div></a>
-                <a href="#DISTRIK"><div className="v21_67"></div></a>
+                <div className="hidden">
+                    <a href="#DISTRIK"><div className="v21_66"></div></a>
+                    <a href="#DISTRIK"><div className="v21_65"></div></a>
+                    <a href="#DISTRIK"><div className="v21_64"></div></a>
+                    <a href="#DISTRIK"><div className="v21_63"></div></a>
+                    <a href="#DISTRIK"><div className="v21_61"></div></a>
+                    <a href="#DISTRIK"><div className="v21_62"></div></a>
+                    <a href="#DISTRIK"><div className="v21_67"></div></a>
+                </div>
                 <div className="logoWoU"></div>
             </div>
         </div>

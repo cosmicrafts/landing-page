@@ -1,6 +1,6 @@
 /// pk34
 /// React
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 ///Resources
 import "../../css/menu.css";
@@ -15,7 +15,6 @@ export default function Menu(props){
     const open = props.open;
     const setOpen = props.setOpen;
     const goTo = props.goTo;
-    const load = props.load;
 
     const [gameOpen, setGameOpen] = useState(true);
     const [nftsOpen, setNFTsOpen] = useState(false);

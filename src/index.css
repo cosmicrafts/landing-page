@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.parallel-btn {
+	text-decoration: none;
+	color: #fff;
+    font-family: neue-bold;
+    font-size: 1.25vw;
+    /*pointer-events: none;*/
+   /* position: absolute;*/
+    text-align: center;
+    /*top: 1.25vh;*/
+    /*width: 100%;*/
+    display: table;
+    padding: 5px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.parallel-btn:hover {
+	cursor: pointer;
+	color: #FFF;
+	transform: scale(1.2);
+}
+
+.parallel-btn:before,
+.parallel-btn:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 4px;
+}
+
+.parallel-blue-btn {
+	background: url('assets/images/buttons/blue-center-btn.png') repeat-x center;
+}
+
+.parallel-blue-btn:after {
+	content: url('assets/images/buttons/blue-right-btn.png');
+	width: 15px;
+	right: -35px;
+}
+
+.parallel-blue-btn:before {
+	content: url('assets/images/buttons/blue-left-btn.png');
+	width: 12px;
+	left: -32px;
+}
+
+.parallel-yellow-btn {
+	background: url('assets/images/buttons/yellow-center-btn.png') repeat-x center;
+}
+
+.parallel-yellow-btn:after {
+	content: url('assets/images/buttons/yellow-right-btn.png');
+	width: 15px;
+	right: -33px;
+}
+
+.parallel-yellow-btn:before {
+	content: url('assets/images/buttons/yellow-left-btn.png');
+	width: 12px;
+	left: -33px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.parallel-yellow-btn:hover:before {
+	left: -32px;
+}
+
+.parallel-yellow-btn:hover:after {
+	right: -32px;
+}
+
+.parallel-blue-btn:hover:before {
+	left: -31px;
+}
+
+.parallel-blue-btn:hover:after {
+	right: -34px;
+}

@@ -1,4 +1,4 @@
-/* Pk34 */
+/* Pk34 - Modified: Art - 09-25-2022 */
 /* Menu closed */
 .menu-open-icon-div{
     width: 3vw;
@@ -66,10 +66,10 @@
     box-shadow: none;
     background: url("../resources/menu/input_search.svg") no-repeat;
     background-size: contain;
-    padding-left: 5vw;
+    padding-left: 2vw;
     color: #FFFFFF;
     font-family: "neue-thin";
-    font-size: 4vw;
+    font-size: 1vw;
 }
 /* Body */
 /* Inner Menu */
@@ -80,14 +80,14 @@
 .menu-arrow-div{
     width: 4vw;
     display: inline-block;
-    padding-left: 3vw;
+    padding-left: 1vw;
     vertical-align: middle;
 }
 .menu-section-div{
     background: url("../resources/menu/menu_section_bkg.png") no-repeat;
     background-size: cover;
     --r: calc(71 / 820);
-    width: 99vw;
+    width: auto;
     height: calc(99vw * var(--r));
     cursor: pointer;
     margin-left: 0.75vw;
@@ -100,7 +100,7 @@
     display: inline-block;
     color: #FFFFFF;
     font-family: "neue-bold";
-    font-size: 5vw;
+    font-size: 2vw;
     vertical-align: bottom;
     cursor: pointer;
 }
@@ -116,7 +116,7 @@
     cursor: pointer;
 }
 .submenu-option-text{
-    font-size: 4vw;
+    font-size: 1vw;
     font-family: "neue-regular";
     color: #FFFFFF;
     display: inline-block;

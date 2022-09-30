@@ -15,10 +15,26 @@ export default function Team(props){
         role: "Founder",
         position: "Founder CEO",
         image: "bizkit.svg",
-        twitter: "",
-        linkedin: "",
+        twitter: "https://twitter.com/ohsalmeron",
+        linkedin: "https://www.linkedin.com/in/ohsalmeron/",
         distrikt: ""
     },{
+        name: "Francisco Peguero",
+        role: "Founder",
+        position: "Web3 Director",
+        image: "pk34.svg",
+        twitter: "https://twitter.com/pk34cosmicrafts",
+        linkedin: "https://linkedin/pk-p-377230238",
+        distrikt: "pk34"
+    },{
+        name: "Kristian Rimas",
+        role: "Co Founder",
+        position: "Product Engineer",
+        image: "kurisu.svg",
+        twitter: "https://www.linkedin.com/in/kristian-erick-rimas/",
+        linkedin: "https://twitter.com/kurisu9282",
+        distrikt: "pk34" 
+    }/*,{
         name: "Moises Lopez",
         role: "Founder",
         position: "Game Director",
@@ -170,7 +186,7 @@ export default function Team(props){
         twitter: "",
         linkedin: "",
         distrikt: ""
-    }];
+    }*/];
 
     const goTo = (url) => {
         window.open(url);
@@ -207,7 +223,7 @@ export default function Team(props){
                                     <label className="team-position">{m.position}</label>
                                     <img src={twitter} alt="Twitter" className="twitter-logo" onClick={() => { goTo(m.twitter); }} />
                                     <img src={linkedin} alt="LinkedIn" className="linkedin-logo" onClick={() => { goTo(m.linkedin); }} />
-                                    <img src={distrikt} alt="Distrikt" className="distrikt-logo" onClick={() => { goTo(m.distrikt); }} />
+                                    <img src={distrikt} alt="Distrikt" className="distrikt-logo hidden" onClick={() => { goTo(m.distrikt); }} />
                                 </div>
                             );
                         })}

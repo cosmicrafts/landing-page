@@ -32,7 +32,7 @@ export default function NFTAnvil()
             </Row>
             <Row className="justify-content-center text-center">
                 <Col>
-                    <Button href="https://nftanvil.com/" id="nftanvil_btn" style={{backgroundImage: `url(${NFTAnvilLink})`}}/>
+                    <Button href="https://entrepot.app/marketplace/cosmicrafts" target="_blank" id="nftanvil_btn" style={{backgroundImage: `url(${NFTAnvilLink})`}}/>
                 </Col>
             </Row>
         </Container>

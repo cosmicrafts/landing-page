@@ -1,0 +1,25 @@
+/*CSS DOCUMENT*/
+.coming-soon-page {}
+.coming-soon-page .divider-three-background {
+	margin-top: -100px;
+	margin-bottom: -200px;
+}
+
+.coming-panel {
+	color: #FFF;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    display: block;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #70b0e7;
+}
+
+.coming-panel h1 {
+	padding: 20px;
+}

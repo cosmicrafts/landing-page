@@ -1,4 +1,4 @@
-/// pk34
+/// pk34 - Modified: Art - 09-25-2022
 /// React
 import React, { useEffect, useState } from "react";
 
@@ -45,13 +45,13 @@ export default function Header(props){
                 <img src={youtubeIcon} className="header-icon" alt="YouTube" onClick={() => { goTo("https://www.youtube.com/channel/UCyq-iQbwTSb1TnGj3pyTv-Q/featured"); }} />
             </div>
             <div className="header-div-buttons">
-                <div className="btn-header-div" onClick={() => { goTo("https://airdrops.cosmicrafts.com"); } }>
+                <div className="btn-header-div hidden" onClick={() => { goTo("https://airdrops.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">AIRDROPS</label>
                 </div>
                 {/*<div className="btn-header-div" onClick={() => { goTo("https://wp.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">WHITEPAPER</label>
                 </div>*/}
-                <div className="btn-header-div-play" onClick={() => { load("https://beta.cosmicrafts.com"); } }>
+                <div className="btn-header-div-play" onClick={() => { goTo("https://beta.cosmicrafts.com", "_blank"); } }>
                 </div>
                 <div className="btn-header-div" onClick={() => { load("https://beta.cosmicrafts.com"); } }>
                     <label className="btn-lbl-header">LOGIN</label>

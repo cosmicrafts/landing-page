@@ -8,7 +8,7 @@ export default function Future(props){
         <div className="v14_11">
             <div className="v14_13">
                 <span className="v14_15"><span className="text-highlight">We’ve partnered with Unity3D and Dfinity Foundation</span> to create world’s first Web3 SDK that will allow developers to “Plug and Play” into the Internet Computer.</span>
-                <span className="v14_16 white-color" >Learn <span className="color-custom">more.</span></span>
+                <span className="v14_16 white-color hidden" >Learn <span className="color-custom">more.</span></span>
                 <span className="v14_17 white-color" >UNLOCKING WEB3 <span className="color-custom">GAMING STARGATE</span></span>
                 <div className="v14_18"></div>
                 <div className="v14_19">
@@ -36,7 +36,7 @@ export default function Future(props){
             </div>
             <div className="v14_46">
                 <span className="v14_48"><span className="text-highlight">Play for free</span> with any <span className="text-highlight">EVM</span> Wallet, by taking advantage of Internet Computer unique features, have full control of your assets on a <span className="text-highlight">secure and reliable network.</span></span>
-                <span className="v14_49 white-color" >Learn <span className="color-custom">more.</span></span>
+                <span className="v14_49 white-color hidden" >Learn <span className="color-custom">more.</span></span>
                 <span className="v14_50 white-color" ><span className="color-custom">FREE TO PLAY</span> WITH REVERSE GAS FEES</span>
                 <div className="v14_51"></div>    
             </div>

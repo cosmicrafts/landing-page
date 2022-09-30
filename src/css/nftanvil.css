@@ -40,4 +40,14 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: calc(0.5vw + 0.5vh);
+    outline: none !important;
+     /*-webkit-tap-highlight-color: transparent;*/
 }
+
+#nftanvil_btn:focus,
+#nftanvil_btn:active,
+#nftanvil_btn:hover {
+    outline: none !important;
+    border: 0;
+     /*-webkit-tap-highlight-color: transparent;*/
+} 
