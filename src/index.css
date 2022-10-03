@@ -98,3 +98,30 @@ a {
 .parallel-blue-btn:hover:after {
 	right: -34px;
 }
+
+/* RESPONSIVE */
+@media screen and (min-width: 1600px ){
+
+	.parallel-btn:before,
+	.parallel-btn:after {
+		top: 5px;
+	}
+
+}
+
+@media screen and (max-width: 1240px ){
+
+	.parallel-blue-btn:before {
+		left: -30px;
+	}
+
+	.parallel-blue-btn:after {
+		right: -33px;
+	}
+
+	.parallel-btn:before,
+	.parallel-btn:after {
+		top: 3px;
+	}
+
+}

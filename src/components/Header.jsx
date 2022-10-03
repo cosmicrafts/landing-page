@@ -41,7 +41,7 @@ function Header () {
             <div className="header-buttons">
                 <a className="parallel-btn parallel-blue-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">PLAY</a>
                 <a className="parallel-btn parallel-yellow-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">LOGIN</a>
-                <NavLink className="parallel-btn parallel-blue-btn" to="/leaderboards">Leaderboards</NavLink>
+                <a className="parallel-btn parallel-blue-btn" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" rel="noreferrer noopener" target="_blank">Leaderboards</a>
                 
             </div>
         </header>
