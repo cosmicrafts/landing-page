@@ -125,3 +125,22 @@ a {
 	}
 
 }
+
+@media screen and (max-width: 767px ){
+
+	/*.parallel-btn:before,
+	.parallel-btn:after {
+		display: none;
+	}*/
+
+	.parallel-btn {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 2vw;
+	}
+
+	.parallel-btn:before, 
+	.parallel-btn:after {
+		top: 4px;
+	}
+}

@@ -27,6 +27,14 @@ export default function Team(props){
         linkedin: "https://www.linkedin.com/in/frank-peguero-4108b583/",
         distrikt: "pk34"
     },{
+        name: "Moises Lopez",
+        role: "Founder",
+        position: "Game Director",
+        image: "frenzy.svg",
+        twitter: "https://twitter.com/cosmicrafts",
+        linkedin: "https://www.linkedin.com/in/moises-isai-lopez-plascencia-82a989218/",
+        distrikt: "frenzy"
+    },{
         name: "Kristian Rimas",
         role: "Co Founder",
         position: "Product Engineer",
@@ -35,14 +43,6 @@ export default function Team(props){
         linkedin: "https://www.linkedin.com/in/kristian-erick-rimas/",
         distrikt: "pk34" 
     }/*,{
-        name: "Moises Lopez",
-        role: "Founder",
-        position: "Game Director",
-        image: "frenzy.svg",
-        twitter: "MoisesL28150532",
-        linkedin: "moises-isai-lopez-plascencia-82a989218",
-        distrikt: "frenzy"
-    },{
         name: "Francisco Peguero",
         role: "Founder",
         position: "Web3 Director",

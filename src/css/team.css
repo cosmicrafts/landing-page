@@ -70,7 +70,7 @@
 .team-panel-div{
     width: 30vw;
     --ratio: calc(884 / 630);
-    height: calc(19vw * var(--ratio));
+    height: calc(25vw * var(--ratio));
     position: absolute;
     right: 0;
     top: 0;
