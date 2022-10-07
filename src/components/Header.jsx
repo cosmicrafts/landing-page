@@ -16,14 +16,26 @@ function Header () {
         menu_this.classList.add('toggle-menu');
     };
 
-    useEffect( ()=> {
-        const url = window.location.pathname;
-        
+{   /* useEffect( ()=> {
+      
+        window.addEventListener("load", () => {
+            const url = window.location.href;
+            console.log(url);
+       });
+
     });
+*/}
+    const [scroll, setScroll] = useState(false);
+
+     useEffect(() => {
+       window.addEventListener("scroll", () => {
+         setScroll(window.scrollY > 100);
+       });
+     }, []);
 
     return (
 
-        <header className="header">
+        <header className={ scroll ? 'scroll header' : 'header ' }>
             <div className="logo-section">
                <a href="/">
                     <img alt="Cosmicrafts" className="logo" src={logo} />
@@ -39,8 +51,8 @@ function Header () {
                 <Social/>
             </div>
             <div className="header-buttons">
-                <a className="parallel-btn parallel-blue-btn play-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">PLAY</a>
-                <a className="parallel-btn parallel-yellow-btn login-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">LOGIN</a>
+                <a className="parallel-btn parallel-yellow-btn play-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">PLAY</a>
+                <a className="parallel-btn parallel-yellow-btn login-btn hidden" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">LOGIN</a>
                 <a className="parallel-btn parallel-blue-btn leaderboards-btn" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" rel="noreferrer noopener" target="_blank">Leaderboards</a>
                 
             </div>

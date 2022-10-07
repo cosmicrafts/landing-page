@@ -26,7 +26,7 @@ function Navigation(props) {
                         <NavLink className="home-menu nav-link" to="/"> Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="game-menu nav-link has-children" target="_blank" rel="noreferrer noopener" href="https://play.cosmicrafts.com/">Game</a>
+                        <a className="game-menu nav-link has-children" target="_blank" rel="noreferrer noopener" href="https://beta.cosmicrafts.com/">Game</a>
                         <ul className="sub-menu">
                             <li className="subnav-item">
                                 <NavLink className="guide-strategies-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Guide & Strategies</NavLink>
@@ -38,7 +38,7 @@ function Navigation(props) {
                                 <NavLink className="roadmap-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Roadmap</NavLink>
                             </li>
                             <li className="subnav-item">
-                                <NavLink className="leaderboards-menu nav-link menu-children" to="/leaderboards" onClick={ handleClick }>Leaderboards</NavLink>
+                                <a className="leaderboards-menu nav-link menu-children" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" target="_blank" onClick={ handleClick }>Leaderboards</a>
                             </li>
                         </ul>
                     </li>

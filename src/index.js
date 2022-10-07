@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./css/font.css";
@@ -29,7 +29,6 @@ import {
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 
-
 root.render(
     <Router>
         <Header />
@@ -45,7 +44,7 @@ root.render(
             </Route>
         </Routes>
         <Footer />
-    </Router>,
+    </Router>
 );
 
 serviceWorker.unregister();

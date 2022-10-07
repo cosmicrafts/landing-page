@@ -26,9 +26,9 @@ export default function Footer(props){
                 <span className="v21_43">GET ON THE SHIP!</span>
                 <span className="v21_44">
                 <a className="alinks" href="#home">HOME</a><br />
-                    <a className="alinks"  targer="_blank" href="https://play.cosmicrafts.com">GAME</a><br />
+                    <a className="alinks"  targer="_blank" href="https://beta.cosmicrafts.com/">GAME</a><br />
                     <a className="alinks" href="#NFTS">NFTS</a><br />
-                    <a className="alinks" href="#tokens">TOKENS<small class="coming-soon">Coming Soon...</small></a><br />
+                    <a className="alinks" href="#tokens">TOKENS<small className="coming-soon">Coming Soon...</small></a><br />
                     <a className="alinks" href="#INVESTORS">INVESTORS
                         <span className="investors-logo">
                             <img src={icpl} className="ICPLeague" alt="ICPLeague" onClick={() => goTo('https://dfinity.org/') }/>

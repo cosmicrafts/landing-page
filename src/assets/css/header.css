@@ -9,6 +9,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.header.scroll {
+    background: rgba(0,0,0,0.8);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    padding: 10px 20px;
 }
 
 .header .logo-section {
@@ -231,7 +238,13 @@
         float: left;
     }
 
-    .header .play-btn,
     .header .leaderboards-btn { display: none; }
 
+}
+
+@media screen and (max-width: 540px ){
+
+    .header .social-media .sm-items a img {
+        max-width: 15px;
+    }
 }

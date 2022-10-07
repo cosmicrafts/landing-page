@@ -4,7 +4,7 @@ import React from "react";
 
 /// Resources
 import "../../css/about.css";
-import deck_pdf from "../../resources/pdf/CosmicraftsPD2022.pdf";
+import deck_pdf from "../../assets/pdf/CosmicraftsPD2022.pdf";
 
 export default function About(props){
 

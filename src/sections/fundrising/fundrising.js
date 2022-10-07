@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../css/fundrising.css";
-import deck_pdf from "../../resources/pdf/CosmicraftsPD2022.pdf";
+import deck_pdf from "../../assets/pdf/CosmicraftsPD2022.pdf";
 
 export default function Fundrising(props){
     const goTo = (url) => {
