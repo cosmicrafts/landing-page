@@ -5,10 +5,12 @@ import "../assets/css/header.css";
 
 import logo from "../assets/images/logo.svg";
 import burger from "../assets/images/menu/menu_icon_open.svg";
+import controller from "../assets/images/controller.svg";
+import clipboard from "../assets/images/clipboard-data.svg";
 
 import Navigation from "../components/Navigation";
 import Social from "../components/Social";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header () {
     const handleClick = event => {
@@ -16,15 +18,22 @@ function Header () {
         menu_this.classList.add('toggle-menu');
     };
 
-{   /* useEffect( ()=> {
-      
-        window.addEventListener("load", () => {
-            const url = window.location.href;
-            console.log(url);
-       });
+    const location = useLocation();
+    const root = document.getElementById('root');
+    const currentPage = location.pathname.replaceAll('/', '');
+
+    useEffect( ()=> {
+
+        if(!currentPage){
+            root.classList.add('home');
+            root.classList.remove('inner');
+        }else {
+            root.classList.add(currentPage);
+            root.classList.add('inner');
+            root.classList.remove('home');
+        }
 
     });
-*/}
     const [scroll, setScroll] = useState(false);
 
      useEffect(() => {
@@ -51,9 +60,9 @@ function Header () {
                 <Social/>
             </div>
             <div className="header-buttons">
-                <a className="parallel-btn parallel-yellow-btn play-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">PLAY</a>
+                <a className="parallel-btn parallel-yellow-btn play-btn" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank"><img  alt="PLAY" src={controller}/><span>PLAY</span></a>
                 <a className="parallel-btn parallel-yellow-btn login-btn hidden" href="https://beta.cosmicrafts.com" rel="noreferrer noopener" target="_blank">LOGIN</a>
-                <a className="parallel-btn parallel-blue-btn leaderboards-btn" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" rel="noreferrer noopener" target="_blank">Leaderboards</a>
+                <a className="parallel-btn parallel-blue-btn leaderboards-btn" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" rel="noreferrer noopener" target="_blank"><img alt="Leaderboards" src={clipboard}/><span>Leaderboards</span></a>
                 
             </div>
         </header>

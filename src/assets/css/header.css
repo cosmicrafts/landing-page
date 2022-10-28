@@ -213,6 +213,11 @@
     margin-left: 45px;
 }
 
+.header .header-buttons a.play-btn img,
+.header .header-buttons a.leaderboards-btn img {
+    display: none;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width: 1600px ){
 
@@ -233,12 +238,47 @@
         margin-left: 10px;
     }
 
-    .header .header-buttons {
+    .header .header-buttons a.play-btn img,
+    .header .header-buttons a.leaderboards-btn img {
         display: block;
-        float: left;
+        filter: invert(1);
     }
 
-    .header .leaderboards-btn { display: none; }
+    .header .header-buttons a.play-btn:after,
+    .header .header-buttons a.play-btn:before,
+    .header .header-buttons a.leaderboards-btn:before,
+    .header .header-buttons a.leaderboards-btn:after,
+    .header .header-buttons a.play-btn span,
+    .header .header-buttons a.leaderboards-btn span {
+        display: none;
+    }
+
+    .header .header-buttons a.play-btn,
+    .header .header-buttons a.leaderboards-btn {
+        background: transparent;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .header .header-buttons {
+       /* display: block;*/
+        /*float: left;*/
+    }
+
+    /*.header .leaderboards-btn { display: none; }*/
+
+    .header .header-buttons a {
+        margin-left: 15px;
+    } 
+
+    .header .social-media .sm-items a {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .header .social-media .sm-items a img {
+        max-width: 15px;
+    }
 
 }
 
@@ -246,5 +286,13 @@
 
     .header .social-media .sm-items a img {
         max-width: 15px;
+    }
+
+    .header .logo-section .toggle {
+        margin-left: 5px;
+    }
+
+    .header .logo-section .logo {
+        width: 3vh;
     }
 }

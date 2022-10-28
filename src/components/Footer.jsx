@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "../css/footer.css";
 import icpl from "../resources/footer/ICPLeague.png";
@@ -18,15 +19,15 @@ export default function Footer(props){
                 <span className="v21_41"> ©2022 World of Unreal<br /> 
             All trademarks referenced herein are the properties of their respective owners.</span>
                 <span className="v21_42">
-                    <a className="alinks" href="TERMS">Terms and Conditions</a><br />
-                    <a className="alinks" href="#PRIVACY POLICY">Privacy Policy</a><br />
-                    <a className="alinks" href="#FAQ">FAQ</a><br />
-                    <a className="alinks" href="#Contact">Contact</a><br />
+                    <a className="alinks" href="coming-soon">Terms and Conditions</a><br />
+                    <NavLink className="privacy-policy-menu nav-link" to="/privacy-policy">Privacy policy</NavLink>
+                    <NavLink className="faq-menu nav-link" to="/faq">FAQ</NavLink>
+                    <NavLink className="contact-menu nav-link" to="/contact">Contact</NavLink>
                 </span>
                 <span className="v21_43">GET ON THE SHIP!</span>
                 <span className="v21_44">
-                <a className="alinks" href="#home">HOME</a><br />
-                    <a className="alinks"  targer="_blank" href="https://beta.cosmicrafts.com/">GAME</a><br />
+                <NavLink className="home-menu nav-link" to="/">HOME</NavLink>
+                    <a className="alinks"  target="_blank" href="https://beta.cosmicrafts.com/">GAME</a><br />
                     <a className="alinks" href="#NFTS">NFTS</a><br />
                     <a className="alinks" href="#tokens">TOKENS<small className="coming-soon">Coming Soon...</small></a><br />
                     <a className="alinks" href="#INVESTORS">INVESTORS

@@ -1,30 +1,21 @@
 import React from "react";
-
-function Contact() {
+import contact_css from '../assets/css/contact.css';
+function FAQ() {
   return (
-    <div className="contact">
-      <div className="container">
-        <div className="row align-items-center my-5">
-          <div className="col-lg-7">
-            <img
-              className="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div className="col-lg-5">
-            <h1 className="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
+    <div className="faq site-main">
+        <div className="container">
+            <h1 className="page-title">CONTACT US</h1>
+            <section>
+                <h2><strong>Project Name:</strong> Cosmicrafts</h2>
+                <p>
+                    <strong>Team Lead: Omar</strong> Hernandez Salmeron<br/>
+                    <strong>Team Lead Email:</strong> <a href="mailto:bizkit@cosmicrafts.com">bizkit@cosmicrafts.com</a><br/>
+                    <strong>Email Address: </strong> <a href="mailto:contact@cosmicrafts.com">contact@cosmicrafts.com</a>
+                </p>
+            </section>
         </div>
-      </div>
     </div>
   );
 }
 
-export default Contact;
+export default FAQ;

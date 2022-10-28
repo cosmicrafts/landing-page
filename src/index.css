@@ -99,6 +99,28 @@ a {
 	right: -34px;
 }
 
+#root.roadmap {
+	background: #333;
+}
+
+#root.roadmap div.roadmap .container {
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 100%;
+}
+
+#root.roadmap div.roadmap .container img {
+	width: 100%;
+}
+
+#root.roadmap div.roadmap {
+	padding-top: 5%;
+}
+
+.inner .site-main {
+	padding-top: 5%;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width: 1600px ){
 
@@ -136,19 +158,53 @@ a {
 	.parallel-btn {
 		display: block;
 		margin-bottom: 10px;
-		font-size: 2vw;
+		/*font-size: 2vw;*/
+		padding: 0;
 	}
 
 	.parallel-btn:before, 
 	.parallel-btn:after {
-		top: 4px;
+		top: 2px;
+	}
+
+	.parallel-btn:after {
+		left: 13px;
+	}
+
+	.parallel-btn:before {
+		left: -12px;
 	}
 }
 
 @media screen and (max-width: 640px ){
 
+	.fundrising-div .div-buttons {
+		left: 0;
+	}
+
+	.parallel-btn {
+		font-size: 2vw;
+	}
+
 	.parallel-btn:before, 
 	.parallel-btn:after {
-		top: 3px;
+		top: 2px;
+	}
+
+	.parallel-btn:after {
+		left: 13px;
+	}
+
+	.parallel-btn:before {
+		left: -12px;
+	}
+
+	.fundrising-div .div-buttons .parallel-btn.yellow-btn,
+	.about-right-section1 .div-buttons .parallel-btn.yellow-btn{
+		margin-right: 25px;
+	}
+
+	.div-buttons .parallel-btn {
+		margin-left: 0;
 	}
 }

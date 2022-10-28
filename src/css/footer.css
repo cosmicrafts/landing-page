@@ -232,6 +232,15 @@
   max-width: 300px;
 }
 
+.footer-div a.nav-link {
+  color: #FFF;
+  padding: 0;
+}
+
+.footer-div a.nav-link:hover {
+  color: #0a58ca;
+}
+
 @media screen and (max-width: 767px) {
 
   .coming-soon {

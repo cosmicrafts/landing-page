@@ -14,6 +14,10 @@ function Navigation(props) {
        menu_this.classList.remove('toggle-menu');
     };
 
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
+
     return (
         <div className="main-navigation">
             <div className="container">
@@ -29,17 +33,18 @@ function Navigation(props) {
                         <a className="game-menu nav-link has-children" target="_blank" rel="noreferrer noopener" href="https://beta.cosmicrafts.com/">Game</a>
                         <ul className="sub-menu">
                             <li className="subnav-item">
-                                <NavLink className="guide-strategies-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Guide & Strategies</NavLink>
-                            </li>
-                             <li className="subnav-item">
-                                <NavLink className="updates-changelog-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Updates & Changelog</NavLink>
-                            </li>
-                             <li className="subnav-item">
-                                <NavLink className="roadmap-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Roadmap</NavLink>
-                            </li>
-                            <li className="subnav-item">
                                 <a className="leaderboards-menu nav-link menu-children" href="https://5nnju-daaaa-aaaad-qd7cq-cai.ic.fleek.co/" target="_blank" onClick={ handleClick }>Leaderboards</a>
                             </li>
+                            <li className="subnav-item">
+                                <NavLink className="hidden guide-strategies-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Guide & Strategies</NavLink>
+                            </li>
+                             <li className="subnav-item">
+                                <NavLink className="hidden updates-changelog-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Updates & Changelog</NavLink>
+                            </li>
+                             <li className="subnav-item">
+                                <NavLink className="roadmap-menu nav-link menu-children" to="/roadmap" onClick={ handleClick }>Roadmap</NavLink>
+                            </li>
+                            
                         </ul>
                     </li>
                      <li className="nav-item">
@@ -49,13 +54,13 @@ function Navigation(props) {
                                 <a className="airdrops-menu nav-link menu-children" target="_blank" rel="noopener noreferrer" href="https://airdrops.cosmicrafts.com/">Airdrops</a>
                             </li>
                              <li className="subnav-item">
-                                <NavLink className="characters-menu nav-link menu-children coming-soon " to="/coming-soon" onClick={ handleClick }>Characters</NavLink>
+                                <NavLink className="hidden characters-menu nav-link menu-children coming-soon " to="/coming-soon" onClick={ handleClick }>Characters</NavLink>
                             </li>
                             <li className="subnav-item">
-                                <NavLink className="units-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Units</NavLink>
+                                <NavLink className="hidden units-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Units</NavLink>
                             </li>
                             <li className="subnav-item">
-                                <NavLink className="collectibles-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Collectibles</NavLink>
+                                <NavLink className="hidden collectibles-menu nav-link menu-children coming-soon" to="/coming-soon" onClick={ handleClick }>Collectibles</NavLink>
                             </li>
                             <li className="subnav-item">
                                 <a className="marketplace-menu nav-link menu-children" target="_blank" rel="noopener noreferrer" href="https://entrepot.app/marketplace/cosmicrafts">Marketplace</a>

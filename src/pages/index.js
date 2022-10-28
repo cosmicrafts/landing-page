@@ -1,6 +1,9 @@
 export { default as Home } from "./Home";
 export { default as NoPage } from "./NoPage";
+export { default as PrivacyPolicy } from "./PrivacyPolicy";
 export { default as Leaderboards } from "./Leaderboards";
+export { default as Roadmap } from "./Roadmap";
+export { default as Faq } from "./Faq";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Blog } from "./blog/Blog";

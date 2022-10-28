@@ -165,6 +165,19 @@
     height: 100%;
 }
 
+@media screen and (max-width: 640px ){
+
+    
+    .div-buttons .parallel-btn {
+        margin-left: 0;
+    }
+
+    .fundrising-div .div-buttons .parallel-btn.parallel-yellow-btn,
+    .about-right-section1 .div-buttons .parallel-btn.parallel-yellow-btn {
+        margin-right: 25px;
+    }
+}
+
 @media(max-width: 374px){
     /* Full document */
     .about-div{

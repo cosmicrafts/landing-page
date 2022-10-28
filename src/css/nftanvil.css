@@ -8,7 +8,7 @@
     margin-top: -6vw;
 }
 
-p{
+.home p {
     color: white;
     font-size: calc(1vw + 0.75vh);
     text-align: justify;

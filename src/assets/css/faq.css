@@ -1,0 +1,47 @@
+/* CSS DOCUMENT */
+#root.faq {
+	background: rgba(24,28,31,1.00);
+	color: rgba(162,169,185,1.00);
+}
+
+#root.faq h2,
+#root.faq h3 {
+	color: rgba(234,242,247,1.00);
+}
+
+#root.faq h1 {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #4e4949;
+	color: rgba(234,242,247,1.00);
+}
+
+#root.faq section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #4e4949;
+}
+
+#root.faq section a {
+	color: #d38432;
+}
+
+#root.faq section table, 
+#root.faq section th, 
+#root.faq section td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#root.faq section table {
+	margin-bottom: 30px;
+}
+
+#root.faq section th {
+	color: rgba(234,242,247,1.00);
+}
+
+#root.faq .v21_3 {
+	background-color: rgba(24,28,31,1.00);
+}

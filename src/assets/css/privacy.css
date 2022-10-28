@@ -1,0 +1,52 @@
+/* CSS DOCUMENT */
+#root.privacy-policy {
+	background: rgba(24,28,31,1.00);
+	color: rgba(162,169,185,1.00);
+}
+
+#root.privacy-policy h2 {
+	color: rgba(234,242,247,1.00);
+}
+
+#root.privacy-policy p,
+#root.privacy-policy ul {
+	color: rgba(162,169,185,1.00);
+	font-size: 16px;
+}
+
+#root.privacy-policy h1 {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #4e4949;
+	color: rgba(234,242,247,1.00);
+}
+
+#root.privacy-policy section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #4e4949;
+}
+
+#root.privacy-policy section a {
+	color: #d38432;
+}
+
+#root.privacy-policy section table, 
+#root.privacy-policy section th, 
+#root.privacy-policy section td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#root.privacy-policy section table {
+	margin-bottom: 30px;
+}
+
+#root.privacy-policy section th {
+	color: rgba(234,242,247,1.00);
+}
+
+#root.privacy-policy .v21_3 {
+	background-color: rgba(24,28,31,1.00);
+}
