@@ -207,4 +207,38 @@ a {
 	.div-buttons .parallel-btn {
 		margin-left: 0;
 	}
+
+	.investors-logo img {
+		max-width: 40px;
+	}
+
+	.investors-logo {
+		top: 5px;
+	}
+
+	.investors-logo .dfinity {
+		max-width: 120px;
+	}
+
+	.investors-logo {
+		display: inline-block;
+		vertical-align: middle;
+		width: 300px;
+	}
+
+
+}
+
+@media screen and (max-width: 480px ){
+
+	.parallel-btn:before, 
+	.parallel-btn:after {
+		top: 2px;
+	}
+
+	.coming-soon {
+		font-size: 5px;
+		line-height: 5px;
+		top: 8px;
+	}
 }
