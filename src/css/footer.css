@@ -256,3 +256,25 @@
   }
 
 }
+
+@media screen and (max-width: 640px ){ 
+
+  .investors-logo img {
+    max-width: 40px;
+  }
+
+  .investors-logo {
+    top: 5px;
+  }
+
+  .investors-logo .dfinity {
+    max-width: 120px;
+  }
+
+  .investors-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+  }
+  
+}
