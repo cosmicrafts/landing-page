@@ -235,10 +235,4 @@ a {
 	.parallel-btn:after {
 		top: 2px;
 	}
-
-	.coming-soon {
-		font-size: 5px;
-		line-height: 5px;
-		top: 8px;
-	}
 }
