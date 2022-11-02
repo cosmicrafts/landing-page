@@ -99,17 +99,17 @@
     cursor: pointer;
 }
 .btn-about-wt{
-    background: url("../resources/about/btn_about_wt.png");
+    /*background: url("../resources/about/btn_about_wt.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;*/
     position: absolute;
     display: inline-block;
     text-align: start;
-    width: 44%;
-    height: 6vh;
+    /*width: 44%;
+    height: 6vh;*/
     top: 31vw;
     cursor: pointer;
-    left: 17vw;
+    left: 14vw;
     
 }
 .about-text-bold {
@@ -167,9 +167,16 @@
 
 @media screen and (max-width: 640px ){
 
-    
+    .div-buttons {
+        margin-top: 10px;
+    }
+
     .div-buttons .parallel-btn {
         margin-left: 0;
+        margin-bottom: 0;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px 20px;
     }
 
     .fundrising-div .div-buttons .parallel-btn.parallel-yellow-btn,
@@ -237,8 +244,8 @@
         cursor: pointer;
     }
     .btn-about-wt{
-        width: 44%;
-        height: 6vh;
+       /* width: 44%;
+        height: 6vh;*/
         top: 80vw;
         right: 0vw;
         left: auto;
@@ -291,6 +298,9 @@
     }
     .div-buttons{
         text-align: right;
+        margin-top: 10px;
+        display: inline-block;
+        vertical-align: middle;
     }
     .btn-about-whitepaper{
         width: 40%;
@@ -312,8 +322,8 @@
         cursor: pointer;
     }
     .btn-about-wt{
-        width: 44%;
-        height: 6vh;
+       /* width: 44%;
+        height: 6vh;*/
         top: 80vw;
         right: 0vw;
         left: auto;
@@ -388,8 +398,8 @@
         cursor: pointer;
     }
     .btn-about-wt{
-        width: 44%;
-        height: 6vh;
+       /* width: 44%;
+        height: 6vh;*/
         top: 80vw;
         right: 0vw;
         left: auto;
@@ -446,7 +456,7 @@
         margin-top: 1vw;
     }
     .btn-about-deck{
-        height: 5vw;
+        /*height: 5vw;*/
         margin-top: 1vw;
     }
     .video {

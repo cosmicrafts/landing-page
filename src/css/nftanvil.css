@@ -51,3 +51,20 @@
     border: 0;
      /*-webkit-tap-highlight-color: transparent;*/
 } 
+
+#marketplace-btn {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#marketplace-btn:hover {
+    color: #FFF;
+}
+
+@media screen and (max-width: 767px){
+
+    .parallel-btn {
+        display: table;
+        padding: 5px 30px;
+    }
+}

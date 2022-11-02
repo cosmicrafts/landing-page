@@ -26,15 +26,15 @@ export default function About(props){
                     <div className="div-buttons">
                         {/*<div className="btn-about-deck" onClick={() => { goTo(deck_pdf) } }></div>*/}
                         {/*<div className="btn-about-whitepaper" onClick={() => {  window.open("https://wp.cosmicrafts.com"); } }> </div>*/}
-                        <a href={deck_pdf} className="parallel-btn parallel-yellow-btn" rel="noreferrer noopener" target="_blank">DECK</a>
-                        <a href="https://wp.cosmicrafts.com" className="parallel-btn parallel-blue-btn" rel="noreferrer noopener" target="_blank">WHITEPAPER</a>
+                        <a href={deck_pdf} className="parallel-btn parallel-yellow-btn" rel="noreferrer noopener" target="_blank"><span>DECK</span></a>
+                        <a href="https://wp.cosmicrafts.com" className="parallel-btn parallel-blue-btn" rel="noreferrer noopener" target="_blank"><span>WHITEPAPER</span></a>
                        
                     </div>
 
                     <div className="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/N4ycbfAAHSs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-
-                    <div className="btn-about-wt" onClick={() => {  goTo("https://www.youtube.com/watch?v=N4ycbfAAHSs") } }>
-                    </div>
+                    <a href="https://www.youtube.com/watch?v=N4ycbfAAHSs" target="_blank" className="btn-about-wt parallel-btn parallel-purple-btn"><span>WATCH TRAILER</span></a>
+                    {/*<div className="btn-about-wt" onClick={() => {  goTo("https://www.youtube.com/watch?v=N4ycbfAAHSs") } }>
+                    </div>*/}
         
                 </div>
                

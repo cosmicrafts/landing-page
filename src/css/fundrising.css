@@ -68,7 +68,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 28vw;
+    top: 33vw;
     left: 7vw;
     z-index: 9;
 }
@@ -179,5 +179,15 @@
 
     .fundrising-div .div-buttons {
         top: 38vw;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .fundrising-div .div-buttons .parallel-btn {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 5px 20px;
+        margin-bottom: 0;
     }
 }

@@ -260,15 +260,15 @@
 @media screen and (max-width: 640px ){ 
 
   .investors-logo img {
-    max-width: 40px;
+    max-width: 25px;
   }
 
   .investors-logo {
-    top: 5px;
+   /* top: 5px;*/
   }
 
   .investors-logo .dfinity {
-    max-width: 120px;
+    max-width: 70px;
   }
 
   .investors-logo {

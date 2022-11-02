@@ -18,8 +18,8 @@ export default function Fundrising(props){
                     {/*<div className="fundrising-btn-deck" onClick={() => { goTo(deck_pdf); }}></div>
                     <div className="fundrising-btn-whitepaper" onClick={() => { goTo("https://wp.cosmicrafts.com"); }}></div>*/}
                     <div className="div-buttons">
-                        <a href={deck_pdf} className="parallel-btn parallel-yellow-btn" rel="noreferrer noopener" target="_blank">DECK</a>  
-                        <a href="https://wp.cosmicrafts.com" className="parallel-btn parallel-blue-btn" rel="noreferrer noopener" target="_blank">WHITEPAPER</a>
+                        <a href={deck_pdf} className="parallel-btn parallel-yellow-btn" rel="noreferrer noopener" target="_blank"><span>DECK</span></a>  
+                        <a href="https://wp.cosmicrafts.com" className="parallel-btn parallel-blue-btn" rel="noreferrer noopener" target="_blank"><span>WHITEPAPER</span></a>
                     </div>
                 </div>
                 <div className="fundrising-right-ship"></div>

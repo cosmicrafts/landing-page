@@ -28,76 +28,45 @@ a {
     /*top: 1.25vh;*/
     /*width: 100%;*/
     display: table;
-    padding: 5px 20px;
+    padding: 5px 40px;
     transition: all 0.3s ease-in-out;
+    transform: skewX(-20deg);
+}
+
+.parallel-btn span {
+	transform: initial;
+	color: white;
+	transform: skewX(20deg) !important;
+	display: block;
 }
 
 .parallel-btn:hover {
 	cursor: pointer;
-	color: #FFF;
-	transform: scale(1.2);
+	/*color: #FFF;
+	transform: scale(1.2);*/
+	/*transform: skewX(-20deg) !important;*/
+	opacity: 0.8;
 }
 
-.parallel-btn:before,
-.parallel-btn:after {
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	top: 4px;
+.parallel-btn.parallel-blue-btn {
+	background: rgb(59,125,205);
+	background: linear-gradient(180deg, rgba(59,125,205,1) 0%, rgba(18,76,147,1) 100%);	
 }
 
-.parallel-blue-btn {
-	background: url('assets/images/buttons/blue-center-btn.png') repeat-x center;
+.parallel-btn.parallel-yellow-btn {
+	background: rgb(216,134,36);
+	background: linear-gradient(180deg, rgba(216,134,36,1) 0%, rgba(156,89,10,1) 100%);
 }
 
-.parallel-blue-btn:after {
-	content: url('assets/images/buttons/blue-right-btn.png');
-	width: 15px;
-	right: -35px;
-}
-
-.parallel-blue-btn:before {
-	content: url('assets/images/buttons/blue-left-btn.png');
-	width: 12px;
-	left: -32px;
-}
-
-.parallel-yellow-btn {
-	background: url('assets/images/buttons/yellow-center-btn.png') repeat-x center;
-}
-
-.parallel-yellow-btn:after {
-	content: url('assets/images/buttons/yellow-right-btn.png');
-	width: 15px;
-	right: -33px;
-}
-
-.parallel-yellow-btn:before {
-	content: url('assets/images/buttons/yellow-left-btn.png');
-	width: 12px;
-	left: -33px;
+.parallel-btn.parallel-purple-btn {
+	background: rgb(94,57,202);
+	background: linear-gradient(180deg, rgba(94,57,202,1) 0%, rgba(38,19,150,1) 100%);
 }
 
 .hidden {
 	display: none !important;
 }
 
-.parallel-yellow-btn:hover:before {
-	left: -32px;
-}
-
-.parallel-yellow-btn:hover:after {
-	right: -32px;
-}
-
-.parallel-blue-btn:hover:before {
-	left: -31px;
-}
-
-.parallel-blue-btn:hover:after {
-	right: -34px;
-}
 
 #root.roadmap {
 	background: #333;
@@ -165,6 +134,7 @@ a {
 	.parallel-btn:before, 
 	.parallel-btn:after {
 		top: 2px;
+		display: none;
 	}
 
 	.parallel-btn:after {
