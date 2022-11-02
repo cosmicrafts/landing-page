@@ -67,4 +67,9 @@
         display: table;
         padding: 5px 30px;
     }
+
+    .BackGround .justify-content-center .col .parallel-btn {
+        position: relative;
+        top: -10px;
+    }
 }
